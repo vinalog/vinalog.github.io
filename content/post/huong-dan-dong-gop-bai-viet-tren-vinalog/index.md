@@ -8,6 +8,7 @@ tags:
 categories:
     - Tutorials
 draft: false
+image: update.jpg
 ---
 
 Chào mọi người, mình xin phép được chia sẻ cách đăng bài viết trên VinaLog Github như sau:
