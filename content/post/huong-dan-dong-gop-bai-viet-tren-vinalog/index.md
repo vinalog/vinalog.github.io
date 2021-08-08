@@ -110,72 +110,72 @@ Chào mọi người, mình xin phép được chia sẻ cách đăng bài viế
 
 5. Để tạo bài viết mới.
 
-Mở trình soạn thảo văn bản. Ở đây mình sử dụng Visual Studio Code. Tiếp theo, bạn tạo một thư mục mới trong `content/post/<bai-viet-moi>/index.md`
+    Mở trình soạn thảo văn bản. Ở đây mình sử dụng Visual Studio Code. Tiếp theo, bạn tạo một thư mục mới trong `content/post/<bai-viet-moi>/index.md`
 
-![](2021-08-08_093901.png)
+    ![](2021-08-08_093901.png)
 
-Sử dụng `markdown` để viết bài viết.
+    Sử dụng `markdown` để viết bài viết.
 
-```markdown
----
-title: "Bài viết mới từ người lạ"
-date: 2021-08-08
-tags:
-    - Test
-categories:
-    - Test
-image: null
-draft: false
-lastmod: 2021-08-08
+    ```markdown
+    ---
+    title: "Bài viết mới từ người lạ"
+    date: 2021-08-08
+    tags:
+        - Test
+    categories:
+        - Test
+    image: null
+    draft: false
+    lastmod: 2021-08-08
 
----
+    ---
 
-## Đây là dòng 1
+    ## Đây là dòng 1
 
-Đây là câu văn.
+    Đây là câu văn.
 
-## Đây là dòng 2
+    ## Đây là dòng 2
 
-```
+    ```
 
-Chạy thử dưới local. Tắt server và chạy lại.
-```bash
-# Ctrl+C
+    Chạy thử dưới local. Tắt server và chạy lại.
+    ```bash
+    # Ctrl+C
 
-hugo server -D
-```
+    hugo server -D
+    ```
 
-![](2021-08-08_094614.png)
+    ![](2021-08-08_094614.png)
 
-Sau khi viết xong bài viết và chỉnh sửa xong bài viết. Hãy cùng qua bước tiếp theo.
+    Sau khi viết xong bài viết và chỉnh sửa xong bài viết. Hãy cùng qua bước tiếp theo.
 
 6. Đẩy bài viết lên Github của bạn.
 
-Sử dụng các lệnh thao tác với Git như sau:
+    Sử dụng các lệnh thao tác với Git như sau:
 
-```bash
-git add .
-git commit -m "Add new post from Guest"
-git push
-```
+    ```bash
+    git add .
+    git commit -m "Add new post from Guest"
+    git push
+    ```
 
-![](2021-08-08_102117.png)
+    ![](2021-08-08_102117.png)
 
-Sau khi đẩy code lên Github của bạn. Kết quả như thế này!
+    Sau khi đẩy code lên Github của bạn. Kết quả như thế này!
 
-![](2021-08-08_102447.png)
+    ![](2021-08-08_102447.png)
 
-Tiếp theo, bạn cần tạo một `Pull requests` để đẩy **code về Github của VinaLog**.
+    Tiếp theo, bạn cần tạo một `Pull requests` để đẩy **code về Github của VinaLog**.
 
-![](2021-08-08_102736.png)
+    ![](2021-08-08_102736.png)
 
-![Comment của bạn ở đây](2021-08-08_104353.png)
+    ![Comment của bạn ở đây](2021-08-08_104353.png)
 
-![Sau khi tạo Pull requests](2021-08-08_104433.png)
+    ![Sau khi tạo Pull requests](2021-08-08_104433.png)
 
-![Theo dõi quá trình Pull requests](2021-08-08_104555.png)
+    ![Theo dõi quá trình Pull requests](2021-08-08_104555.png)
 
-Bạn đợi bên VinaLog kiểm duyệt và bài viết của bạn sẽ được đăng lên VinaLog.
+    Bạn đợi bên VinaLog kiểm duyệt và bài viết của bạn sẽ được đăng lên VinaLog.
 
 ## Kết quả
 

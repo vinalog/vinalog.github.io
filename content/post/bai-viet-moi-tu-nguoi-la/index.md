@@ -5,7 +5,7 @@ tags:
     - Test
 categories:
     - Test
-image: null
+image: update.jpg
 draft: false
 lastmod: 2021-08-08
 ---
@@ -15,3 +15,5 @@ lastmod: 2021-08-08
 Đây là câu văn.
 
 ## Đây là dòng 2
+
+![Thêm ảnh](update.jpg)
