@@ -8,9 +8,19 @@ loading="lazy"
 alt="Updated">
 &lt;/a>
 &lt;figcaption>Updated&lt;/figcaption>
-&lt;/figure>&lt;/p></description></item><item><title>Bài viết mới từ người lạ</title><link>https://vinalog.github.io/posts/b%C3%A0i-vi%E1%BA%BFt-m%E1%BB%9Bi-t%E1%BB%AB-ng%C6%B0%E1%BB%9Di-l%E1%BA%A1/</link><pubDate>Sun, 08 Aug 2021 00:00:00 +0000</pubDate><guid>https://vinalog.github.io/posts/b%C3%A0i-vi%E1%BA%BFt-m%E1%BB%9Bi-t%E1%BB%AB-ng%C6%B0%E1%BB%9Di-l%E1%BA%A1/</guid><description>&lt;h2 id="đây-là-dòng-1">Đây là dòng 1&lt;/h2>
+&lt;/figure>&lt;/p></description></item><item><title>Bài viết mới từ người lạ</title><link>https://vinalog.github.io/posts/b%C3%A0i-vi%E1%BA%BFt-m%E1%BB%9Bi-t%E1%BB%AB-ng%C6%B0%E1%BB%9Di-l%E1%BA%A1/</link><pubDate>Sun, 08 Aug 2021 00:00:00 +0000</pubDate><guid>https://vinalog.github.io/posts/b%C3%A0i-vi%E1%BA%BFt-m%E1%BB%9Bi-t%E1%BB%AB-ng%C6%B0%E1%BB%9Di-l%E1%BA%A1/</guid><description>&lt;img src="https://vinalog.github.io/posts/b%C3%A0i-vi%E1%BA%BFt-m%E1%BB%9Bi-t%E1%BB%AB-ng%C6%B0%E1%BB%9Di-l%E1%BA%A1/update.jpg" alt="Featured image of post Bài viết mới từ người lạ" />&lt;h2 id="đây-là-dòng-1">Đây là dòng 1&lt;/h2>
 &lt;p>Đây là câu văn.&lt;/p>
-&lt;h2 id="đây-là-dòng-2">Đây là dòng 2&lt;/h2></description></item><item><title>Hướng dẫn đóng góp bài viết trên VinaLog</title><link>https://vinalog.github.io/posts/h%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-%C4%91%C3%B3ng-g%C3%B3p-b%C3%A0i-vi%E1%BA%BFt-tr%C3%AAn-vinalog/</link><pubDate>Sun, 08 Aug 2021 00:00:00 +0000</pubDate><guid>https://vinalog.github.io/posts/h%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-%C4%91%C3%B3ng-g%C3%B3p-b%C3%A0i-vi%E1%BA%BFt-tr%C3%AAn-vinalog/</guid><description>&lt;p>Chào mọi người, mình xin phép được chia sẻ cách đăng bài viết trên VinaLog Github như sau:&lt;/p>
+&lt;h2 id="đây-là-dòng-2">Đây là dòng 2&lt;/h2>
+&lt;p>&lt;figure style="flex-grow: 179; flex-basis: 429px">
+&lt;a href="https://vinalog.github.io/posts/b%C3%A0i-vi%E1%BA%BFt-m%E1%BB%9Bi-t%E1%BB%AB-ng%C6%B0%E1%BB%9Di-l%E1%BA%A1/update.jpg" data-size="512x286">&lt;img src="https://vinalog.github.io/posts/b%C3%A0i-vi%E1%BA%BFt-m%E1%BB%9Bi-t%E1%BB%AB-ng%C6%B0%E1%BB%9Di-l%E1%BA%A1/update.jpg"
+srcset="https://vinalog.github.io/posts/b%C3%A0i-vi%E1%BA%BFt-m%E1%BB%9Bi-t%E1%BB%AB-ng%C6%B0%E1%BB%9Di-l%E1%BA%A1/update_hu1dd84e989467d0778b9e2239a0d4cd29_55049_480x0_resize_q75_box.jpg 480w, https://vinalog.github.io/posts/b%C3%A0i-vi%E1%BA%BFt-m%E1%BB%9Bi-t%E1%BB%AB-ng%C6%B0%E1%BB%9Di-l%E1%BA%A1/update_hu1dd84e989467d0778b9e2239a0d4cd29_55049_1024x0_resize_q75_box.jpg 1024w"
+width="512"
+height="286"
+loading="lazy"
+alt="Thêm ảnh">
+&lt;/a>
+&lt;figcaption>Thêm ảnh&lt;/figcaption>
+&lt;/figure>&lt;/p></description></item><item><title>Hướng dẫn đóng góp bài viết trên VinaLog</title><link>https://vinalog.github.io/posts/h%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-%C4%91%C3%B3ng-g%C3%B3p-b%C3%A0i-vi%E1%BA%BFt-tr%C3%AAn-vinalog/</link><pubDate>Sun, 08 Aug 2021 00:00:00 +0000</pubDate><guid>https://vinalog.github.io/posts/h%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-%C4%91%C3%B3ng-g%C3%B3p-b%C3%A0i-vi%E1%BA%BFt-tr%C3%AAn-vinalog/</guid><description>&lt;p>Chào mọi người, mình xin phép được chia sẻ cách đăng bài viết trên VinaLog Github như sau:&lt;/p>
 &lt;h2 id="mã-nguồn-của-vinalog-github">Mã nguồn của VinaLog Github&lt;/h2>
 &lt;p>Đây là mã nguồn của VinaLog: &lt;a class="link" href="https://github.com/vinalog/vinalog.github.io" target="_blank" rel="noopener"
 >https://github.com/vinalog/vinalog.github.io&lt;/a>.&lt;/p>
@@ -159,8 +169,6 @@ alt="Truy cập http://localhost:1313 hoặc http://127.0.0.1:1313">
 &lt;/li>
 &lt;li>
 &lt;p>Để tạo bài viết mới.&lt;/p>
-&lt;/li>
-&lt;/ol>
 &lt;p>Mở trình soạn thảo văn bản. Ở đây mình sử dụng Visual Studio Code. Tiếp theo, bạn tạo một thư mục mới trong &lt;code>content/post/&amp;lt;bai-viet-moi&amp;gt;/index.md&lt;/code>&lt;/p>
 &lt;p>&lt;figure style="flex-grow: 159; flex-basis: 383px">
 &lt;a href="https://vinalog.github.io/posts/h%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-%C4%91%C3%B3ng-g%C3%B3p-b%C3%A0i-vi%E1%BA%BFt-tr%C3%AAn-vinalog/2021-08-08_093901.png" data-size="950x595">&lt;img src="https://vinalog.github.io/posts/h%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-%C4%91%C3%B3ng-g%C3%B3p-b%C3%A0i-vi%E1%BA%BFt-tr%C3%AAn-vinalog/2021-08-08_093901.png"
@@ -201,9 +209,9 @@ loading="lazy"
 &lt;/a>
 &lt;/figure>&lt;/p>
 &lt;p>Sau khi viết xong bài viết và chỉnh sửa xong bài viết. Hãy cùng qua bước tiếp theo.&lt;/p>
-&lt;ol start="6">
-&lt;li>Đẩy bài viết lên Github của bạn.&lt;/li>
-&lt;/ol>
+&lt;/li>
+&lt;li>
+&lt;p>Đẩy bài viết lên Github của bạn.&lt;/p>
 &lt;p>Sử dụng các lệnh thao tác với Git như sau:&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">git add .
 git commit -m &lt;span class="s2">&amp;#34;Add new post from Guest&amp;#34;&lt;/span>
@@ -268,6 +276,8 @@ alt="Theo dõi quá trình Pull requests">
 &lt;figcaption>Theo dõi quá trình Pull requests&lt;/figcaption>
 &lt;/figure>&lt;/p>
 &lt;p>Bạn đợi bên VinaLog kiểm duyệt và bài viết của bạn sẽ được đăng lên VinaLog.&lt;/p>
+&lt;/li>
+&lt;/ol>
 &lt;h2 id="kết-quả">Kết quả&lt;/h2>
 &lt;p>Trang chủ của VinaLog: &lt;a class="link" href="https://vinalog.github.io" target="_blank" rel="noopener"
 >https://vinalog.github.io&lt;/a>&lt;/p>
