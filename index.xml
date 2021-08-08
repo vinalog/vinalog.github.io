@@ -10,4 +10,274 @@ alt="Updated">
 &lt;figcaption>Updated&lt;/figcaption>
 &lt;/figure>&lt;/p></description></item><item><title>Bài viết mới từ người lạ</title><link>https://vinalog.github.io/posts/b%C3%A0i-vi%E1%BA%BFt-m%E1%BB%9Bi-t%E1%BB%AB-ng%C6%B0%E1%BB%9Di-l%E1%BA%A1/</link><pubDate>Sun, 08 Aug 2021 00:00:00 +0000</pubDate><guid>https://vinalog.github.io/posts/b%C3%A0i-vi%E1%BA%BFt-m%E1%BB%9Bi-t%E1%BB%AB-ng%C6%B0%E1%BB%9Di-l%E1%BA%A1/</guid><description>&lt;h2 id="đây-là-dòng-1">Đây là dòng 1&lt;/h2>
 &lt;p>Đây là câu văn.&lt;/p>
-&lt;h2 id="đây-là-dòng-2">Đây là dòng 2&lt;/h2></description></item></channel></rss>
+&lt;h2 id="đây-là-dòng-2">Đây là dòng 2&lt;/h2></description></item><item><title>Hướng dẫn đóng góp bài viết trên VinaLog</title><link>https://vinalog.github.io/posts/h%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-%C4%91%C3%B3ng-g%C3%B3p-b%C3%A0i-vi%E1%BA%BFt-tr%C3%AAn-vinalog/</link><pubDate>Sun, 08 Aug 2021 00:00:00 +0000</pubDate><guid>https://vinalog.github.io/posts/h%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-%C4%91%C3%B3ng-g%C3%B3p-b%C3%A0i-vi%E1%BA%BFt-tr%C3%AAn-vinalog/</guid><description>&lt;p>Chào mọi người, mình xin phép được chia sẻ cách đăng bài viết trên VinaLog Github như sau:&lt;/p>
+&lt;h2 id="mã-nguồn-của-vinalog-github">Mã nguồn của VinaLog Github&lt;/h2>
+&lt;p>Đây là mã nguồn của VinaLog: &lt;a class="link" href="https://github.com/vinalog/vinalog.github.io" target="_blank" rel="noopener"
+>https://github.com/vinalog/vinalog.github.io&lt;/a>.&lt;/p>
+&lt;h3 id="thông-tin-về-mã-nguồn">Thông tin về mã nguồn&lt;/h3>
+&lt;ol>
+&lt;li>
+&lt;p>Hugo.&lt;/p>
+&lt;p>Blog được xây dựng từ Hugo. Hugo là một framework xây dựng dựa trên ngôn ngữ Golang của Google và sử dụng markdown để tạo bài viết. Trang chủ của Hugo Golang ở đây: &lt;a class="link" href="https://gohugo.io" target="_blank" rel="noopener"
+>https://gohugo.io&lt;/a>.&lt;/p>
+&lt;p>&lt;em>Ưu điểm:&lt;/em>&lt;/p>
+&lt;ul>
+&lt;li>Tốc độ xây dựng (build) trang web nhanh.&lt;/li>
+&lt;li>Không cần cơ sở dữ liệu để lưu bài viết&lt;/li>
+&lt;li>Các plugin không yêu cầu cấp quyền, không cần lo về bảo mật&lt;/li>
+&lt;/ul>
+&lt;p>&lt;em>Nhược điểm:&lt;/em>&lt;/p>
+&lt;ul>
+&lt;li>Cập nhật&amp;hellip;&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>Git, cụ thể là Github.&lt;/p>
+&lt;p>Mã nguồn Web được lưu trữ trên Github. Github là một trang để lưu trữ mã nguồn mở, giúp chia sẻ code với nhau và mọi người có thể đóng góp code của mình trên đó.&lt;/p>
+&lt;p>Trang chủ của Github ở đây: &lt;a class="link" href="https://github.com" target="_blank" rel="noopener"
+>https://github.com&lt;/a>.&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;h3 id="cách-sử-dụng-mã-nguồn">Cách sử dụng mã nguồn&lt;/h3>
+&lt;ol>
+&lt;li>
+&lt;p>Trước tiên, bạn phải cài đặt Git. Tải Git ở đây: &lt;a class="link" href="https://git-scm.com/downloads" target="_blank" rel="noopener"
+>https://git-scm.com/downloads&lt;/a>.&lt;/p>
+&lt;p>Kiểm tra Git đã cài đặt trên máy tính của bạn. Sử dụng lệnh sau:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">git --version
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;figure style="flex-grow: 613; flex-basis: 1472px">
+&lt;a href="https://vinalog.github.io/posts/h%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-%C4%91%C3%B3ng-g%C3%B3p-b%C3%A0i-vi%E1%BA%BFt-tr%C3%AAn-vinalog/2021-08-08_091416.png" data-size="405x66">&lt;img src="https://vinalog.github.io/posts/h%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-%C4%91%C3%B3ng-g%C3%B3p-b%C3%A0i-vi%E1%BA%BFt-tr%C3%AAn-vinalog/2021-08-08_091416.png"
+srcset="https://vinalog.github.io/posts/h%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-%C4%91%C3%B3ng-g%C3%B3p-b%C3%A0i-vi%E1%BA%BFt-tr%C3%AAn-vinalog/2021-08-08_091416_hu6834b4d121544c1f3489d52d5544133a_3479_480x0_resize_box_3.png 480w, https://vinalog.github.io/posts/h%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-%C4%91%C3%B3ng-g%C3%B3p-b%C3%A0i-vi%E1%BA%BFt-tr%C3%AAn-vinalog/2021-08-08_091416_hu6834b4d121544c1f3489d52d5544133a_3479_1024x0_resize_box_3.png 1024w"
+width="405"
+height="66"
+loading="lazy"
+alt="Như thế này là được.">
+&lt;/a>
+&lt;figcaption>Như thế này là được.&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Tiếp theo, bạn phải có một tài khoản Github. Đăng kí ở đây: &lt;a class="link" href="https://github.com/signup" target="_blank" rel="noopener"
+>https://github.com/signup&lt;/a>&lt;/p>
+&lt;p>Sau khi đăng ký xong, bạn phải xác nhận một e-mail để xác thực tài khoản. Đăng nhập vào Github.&lt;/p>
+&lt;p>&lt;figure style="flex-grow: 253; flex-basis: 609px">
+&lt;a href="https://vinalog.github.io/posts/h%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-%C4%91%C3%B3ng-g%C3%B3p-b%C3%A0i-vi%E1%BA%BFt-tr%C3%AAn-vinalog/2021-08-08_092043.png" data-size="1160x457">&lt;img src="https://vinalog.github.io/posts/h%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-%C4%91%C3%B3ng-g%C3%B3p-b%C3%A0i-vi%E1%BA%BFt-tr%C3%AAn-vinalog/2021-08-08_092043.png"
+srcset="https://vinalog.github.io/posts/h%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-%C4%91%C3%B3ng-g%C3%B3p-b%C3%A0i-vi%E1%BA%BFt-tr%C3%AAn-vinalog/2021-08-08_092043_hu81464d6b52ae4365072c59ceb21f3e21_32624_480x0_resize_box_3.png 480w, https://vinalog.github.io/posts/h%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-%C4%91%C3%B3ng-g%C3%B3p-b%C3%A0i-vi%E1%BA%BFt-tr%C3%AAn-vinalog/2021-08-08_092043_hu81464d6b52ae4365072c59ceb21f3e21_32624_1024x0_resize_box_3.png 1024w"
+width="1160"
+height="457"
+loading="lazy"
+>
+&lt;/a>
+&lt;/figure>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Sử dụng một số lệnh để tải xuống và sử dụng mã nguồn&lt;/p>
+&lt;p>Bạn truy cập mã nguồn &lt;a class="link" href="https://github.com/vinalog/vinalog.github.io" target="_blank" rel="noopener"
+>https://github.com/vinalog/vinalog.github.io&lt;/a> và fork về tài khoản Github của bạn.&lt;/p>
+&lt;p>&lt;figure style="flex-grow: 182; flex-basis: 438px">
+&lt;a href="https://vinalog.github.io/posts/h%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-%C4%91%C3%B3ng-g%C3%B3p-b%C3%A0i-vi%E1%BA%BFt-tr%C3%AAn-vinalog/2021-08-08_092213.png" data-size="1165x638">&lt;img src="https://vinalog.github.io/posts/h%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-%C4%91%C3%B3ng-g%C3%B3p-b%C3%A0i-vi%E1%BA%BFt-tr%C3%AAn-vinalog/2021-08-08_092213.png"
+srcset="https://vinalog.github.io/posts/h%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-%C4%91%C3%B3ng-g%C3%B3p-b%C3%A0i-vi%E1%BA%BFt-tr%C3%AAn-vinalog/2021-08-08_092213_hub78703d9f0efe465bd5535168a864229_49269_480x0_resize_box_3.png 480w, https://vinalog.github.io/posts/h%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-%C4%91%C3%B3ng-g%C3%B3p-b%C3%A0i-vi%E1%BA%BFt-tr%C3%AAn-vinalog/2021-08-08_092213_hub78703d9f0efe465bd5535168a864229_49269_1024x0_resize_box_3.png 1024w"
+width="1165"
+height="638"
+loading="lazy"
+>
+&lt;/a>
+&lt;/figure>&lt;/p>
+&lt;p>Kết quả sau khi fork.&lt;/p>
+&lt;p>&lt;figure style="flex-grow: 182; flex-basis: 437px">
+&lt;a href="https://vinalog.github.io/posts/h%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-%C4%91%C3%B3ng-g%C3%B3p-b%C3%A0i-vi%E1%BA%BFt-tr%C3%AAn-vinalog/2021-08-08_092324.png" data-size="1139x625">&lt;img src="https://vinalog.github.io/posts/h%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-%C4%91%C3%B3ng-g%C3%B3p-b%C3%A0i-vi%E1%BA%BFt-tr%C3%AAn-vinalog/2021-08-08_092324.png"
+srcset="https://vinalog.github.io/posts/h%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-%C4%91%C3%B3ng-g%C3%B3p-b%C3%A0i-vi%E1%BA%BFt-tr%C3%AAn-vinalog/2021-08-08_092324_hua913929a50eb759b128383de77e4f687_38322_480x0_resize_box_3.png 480w, https://vinalog.github.io/posts/h%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-%C4%91%C3%B3ng-g%C3%B3p-b%C3%A0i-vi%E1%BA%BFt-tr%C3%AAn-vinalog/2021-08-08_092324_hua913929a50eb759b128383de77e4f687_38322_1024x0_resize_box_3.png 1024w"
+width="1139"
+height="625"
+loading="lazy"
+>
+&lt;/a>
+&lt;/figure>&lt;/p>
+&lt;p>Tiếp theo, các bạn sử dụng một số lệnh sau:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="c1"># Tạo một thư mục mới tên là source&lt;/span>
+mkdir &lt;span class="nb">source&lt;/span>
+&lt;span class="nb">cd&lt;/span> &lt;span class="nb">source&lt;/span>
+&lt;span class="c1"># Clone mã nguồn về máy tính&lt;/span>
+git clone https://github.com/tribuit003/vinalog.github.io.git
+&lt;/code>&lt;/pre>&lt;/div>&lt;blockquote>
+&lt;p>Với mã nguồn này bạn có thể khởi chạy trang VinaLog dưới máy tính của bạn.&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>Để chạy VinaLog dưới máy tính. (Không cần thiết có thể bỏ qua)&lt;/p>
+&lt;p>Các bạn phải cài đặt Hugo. Tải và cài đặt Hugo ở đây: &lt;a class="link" href="https://gohugo.io/getting-started/installing/" target="_blank" rel="noopener"
+>https://gohugo.io/getting-started/installing/&lt;/a>. Bạn chỉ cần follow cái hướng dẫn trên là cài đặt được Hugo.&lt;/p>
+&lt;p>Kiểm tra đã cài đặt Hugo hay chưa.
+&lt;figure style="flex-grow: 1234; flex-basis: 2962px">
+&lt;a href="https://vinalog.github.io/posts/h%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-%C4%91%C3%B3ng-g%C3%B3p-b%C3%A0i-vi%E1%BA%BFt-tr%C3%AAn-vinalog/2021-08-08_093044.png" data-size="827x67">&lt;img src="https://vinalog.github.io/posts/h%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-%C4%91%C3%B3ng-g%C3%B3p-b%C3%A0i-vi%E1%BA%BFt-tr%C3%AAn-vinalog/2021-08-08_093044.png"
+srcset="https://vinalog.github.io/posts/h%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-%C4%91%C3%B3ng-g%C3%B3p-b%C3%A0i-vi%E1%BA%BFt-tr%C3%AAn-vinalog/2021-08-08_093044_hu6329beeaf1bdffd7238d59cf19f9f9b7_5268_480x0_resize_box_3.png 480w, https://vinalog.github.io/posts/h%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-%C4%91%C3%B3ng-g%C3%B3p-b%C3%A0i-vi%E1%BA%BFt-tr%C3%AAn-vinalog/2021-08-08_093044_hu6329beeaf1bdffd7238d59cf19f9f9b7_5268_1024x0_resize_box_3.png 1024w"
+width="827"
+height="67"
+loading="lazy"
+>
+&lt;/a>
+&lt;/figure>&lt;/p>
+&lt;blockquote>
+&lt;p>Mã nguồn hiện tại vẫn chưa có Themes nên bạn không thể chạy được trang. Các bạn cần sử dụng lệnh sau&lt;/p>
+&lt;/blockquote>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="c1"># Truy cập vào thư mục themes trong mã nguồn&lt;/span>
+&lt;span class="nb">cd&lt;/span> themes
+&lt;span class="c1"># Tải themes về máy&lt;/span>
+git clone https://github.com/CaiJimmy/hugo-theme-stack.git
+&lt;span class="c1"># Trở về thư mục chính&lt;/span>
+&lt;span class="nb">cd&lt;/span> ..
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;figure style="flex-grow: 310; flex-basis: 746px">
+&lt;a href="https://vinalog.github.io/posts/h%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-%C4%91%C3%B3ng-g%C3%B3p-b%C3%A0i-vi%E1%BA%BFt-tr%C3%AAn-vinalog/2021-08-08_093336.png" data-size="768x247">&lt;img src="https://vinalog.github.io/posts/h%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-%C4%91%C3%B3ng-g%C3%B3p-b%C3%A0i-vi%E1%BA%BFt-tr%C3%AAn-vinalog/2021-08-08_093336.png"
+srcset="https://vinalog.github.io/posts/h%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-%C4%91%C3%B3ng-g%C3%B3p-b%C3%A0i-vi%E1%BA%BFt-tr%C3%AAn-vinalog/2021-08-08_093336_hu055c35a929f23460865faabe773a9bb4_21635_480x0_resize_box_3.png 480w, https://vinalog.github.io/posts/h%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-%C4%91%C3%B3ng-g%C3%B3p-b%C3%A0i-vi%E1%BA%BFt-tr%C3%AAn-vinalog/2021-08-08_093336_hu055c35a929f23460865faabe773a9bb4_21635_1024x0_resize_box_3.png 1024w"
+width="768"
+height="247"
+loading="lazy"
+>
+&lt;/a>
+&lt;/figure>&lt;/p>
+&lt;p>Giờ bạn có thể chạy Web dưới local. Sử dụng lệnh&lt;/p>
+&lt;pre>&lt;code>hugo server -D
+&lt;/code>&lt;/pre>&lt;p>&lt;figure style="flex-grow: 207; flex-basis: 498px">
+&lt;a href="https://vinalog.github.io/posts/h%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-%C4%91%C3%B3ng-g%C3%B3p-b%C3%A0i-vi%E1%BA%BFt-tr%C3%AAn-vinalog/2021-08-08_093454.png" data-size="935x450">&lt;img src="https://vinalog.github.io/posts/h%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-%C4%91%C3%B3ng-g%C3%B3p-b%C3%A0i-vi%E1%BA%BFt-tr%C3%AAn-vinalog/2021-08-08_093454.png"
+srcset="https://vinalog.github.io/posts/h%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-%C4%91%C3%B3ng-g%C3%B3p-b%C3%A0i-vi%E1%BA%BFt-tr%C3%AAn-vinalog/2021-08-08_093454_huf48bb749173ebe542c13ecb301de8580_26264_480x0_resize_box_3.png 480w, https://vinalog.github.io/posts/h%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-%C4%91%C3%B3ng-g%C3%B3p-b%C3%A0i-vi%E1%BA%BFt-tr%C3%AAn-vinalog/2021-08-08_093454_huf48bb749173ebe542c13ecb301de8580_26264_1024x0_resize_box_3.png 1024w"
+width="935"
+height="450"
+loading="lazy"
+>
+&lt;/a>
+&lt;/figure>&lt;/p>
+&lt;p>&lt;figure style="flex-grow: 243; flex-basis: 583px">
+&lt;a href="https://vinalog.github.io/posts/h%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-%C4%91%C3%B3ng-g%C3%B3p-b%C3%A0i-vi%E1%BA%BFt-tr%C3%AAn-vinalog/2021-08-08_093515.png" data-size="1344x553">&lt;img src="https://vinalog.github.io/posts/h%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-%C4%91%C3%B3ng-g%C3%B3p-b%C3%A0i-vi%E1%BA%BFt-tr%C3%AAn-vinalog/2021-08-08_093515.png"
+srcset="https://vinalog.github.io/posts/h%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-%C4%91%C3%B3ng-g%C3%B3p-b%C3%A0i-vi%E1%BA%BFt-tr%C3%AAn-vinalog/2021-08-08_093515_hub73ca06706c4cad8e197140a19ae5af9_268430_480x0_resize_box_3.png 480w, https://vinalog.github.io/posts/h%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-%C4%91%C3%B3ng-g%C3%B3p-b%C3%A0i-vi%E1%BA%BFt-tr%C3%AAn-vinalog/2021-08-08_093515_hub73ca06706c4cad8e197140a19ae5af9_268430_1024x0_resize_box_3.png 1024w"
+width="1344"
+height="553"
+loading="lazy"
+alt="Truy cập http://localhost:1313 hoặc http://127.0.0.1:1313">
+&lt;/a>
+&lt;figcaption>Truy cập http://localhost:1313 hoặc http://127.0.0.1:1313&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Để tạo bài viết mới.&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;p>Mở trình soạn thảo văn bản. Ở đây mình sử dụng Visual Studio Code. Tiếp theo, bạn tạo một thư mục mới trong &lt;code>content/post/&amp;lt;bai-viet-moi&amp;gt;/index.md&lt;/code>&lt;/p>
+&lt;p>&lt;figure style="flex-grow: 159; flex-basis: 383px">
+&lt;a href="https://vinalog.github.io/posts/h%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-%C4%91%C3%B3ng-g%C3%B3p-b%C3%A0i-vi%E1%BA%BFt-tr%C3%AAn-vinalog/2021-08-08_093901.png" data-size="950x595">&lt;img src="https://vinalog.github.io/posts/h%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-%C4%91%C3%B3ng-g%C3%B3p-b%C3%A0i-vi%E1%BA%BFt-tr%C3%AAn-vinalog/2021-08-08_093901.png"
+srcset="https://vinalog.github.io/posts/h%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-%C4%91%C3%B3ng-g%C3%B3p-b%C3%A0i-vi%E1%BA%BFt-tr%C3%AAn-vinalog/2021-08-08_093901_huda2c699e3f5d15119dbbde7d6dd16d99_23965_480x0_resize_box_3.png 480w, https://vinalog.github.io/posts/h%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-%C4%91%C3%B3ng-g%C3%B3p-b%C3%A0i-vi%E1%BA%BFt-tr%C3%AAn-vinalog/2021-08-08_093901_huda2c699e3f5d15119dbbde7d6dd16d99_23965_1024x0_resize_box_3.png 1024w"
+width="950"
+height="595"
+loading="lazy"
+>
+&lt;/a>
+&lt;/figure>&lt;/p>
+&lt;p>Sử dụng &lt;code>markdown&lt;/code> để viết bài viết.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-markdown" data-lang="markdown">---
+title: &amp;#34;Bài viết mới từ người lạ&amp;#34;
+date: 2021-08-08
+tags:
+&lt;span class="k">-&lt;/span> Test
+categories:
+&lt;span class="k">-&lt;/span> Test
+image: null
+draft: false
+lastmod: 2021-08-08
+---
+&lt;span class="gu">## Đây là dòng 1
+&lt;/span>&lt;span class="gu">&lt;/span>
+Đây là câu văn.
+&lt;span class="gu">## Đây là dòng 2
+&lt;/span>&lt;span class="gu">&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>Chạy thử dưới local. Tắt server và chạy lại.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="c1"># Ctrl+C&lt;/span>
+hugo server -D
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;figure style="flex-grow: 151; flex-basis: 362px">
+&lt;a href="https://vinalog.github.io/posts/h%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-%C4%91%C3%B3ng-g%C3%B3p-b%C3%A0i-vi%E1%BA%BFt-tr%C3%AAn-vinalog/2021-08-08_094614.png" data-size="866x573">&lt;img src="https://vinalog.github.io/posts/h%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-%C4%91%C3%B3ng-g%C3%B3p-b%C3%A0i-vi%E1%BA%BFt-tr%C3%AAn-vinalog/2021-08-08_094614.png"
+srcset="https://vinalog.github.io/posts/h%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-%C4%91%C3%B3ng-g%C3%B3p-b%C3%A0i-vi%E1%BA%BFt-tr%C3%AAn-vinalog/2021-08-08_094614_hua658a339beda443faffbe9e300098f45_41795_480x0_resize_box_3.png 480w, https://vinalog.github.io/posts/h%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-%C4%91%C3%B3ng-g%C3%B3p-b%C3%A0i-vi%E1%BA%BFt-tr%C3%AAn-vinalog/2021-08-08_094614_hua658a339beda443faffbe9e300098f45_41795_1024x0_resize_box_3.png 1024w"
+width="866"
+height="573"
+loading="lazy"
+>
+&lt;/a>
+&lt;/figure>&lt;/p>
+&lt;p>Sau khi viết xong bài viết và chỉnh sửa xong bài viết. Hãy cùng qua bước tiếp theo.&lt;/p>
+&lt;ol start="6">
+&lt;li>Đẩy bài viết lên Github của bạn.&lt;/li>
+&lt;/ol>
+&lt;p>Sử dụng các lệnh thao tác với Git như sau:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">git add .
+git commit -m &lt;span class="s2">&amp;#34;Add new post from Guest&amp;#34;&lt;/span>
+git push
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;figure style="flex-grow: 251; flex-basis: 603px">
+&lt;a href="https://vinalog.github.io/posts/h%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-%C4%91%C3%B3ng-g%C3%B3p-b%C3%A0i-vi%E1%BA%BFt-tr%C3%AAn-vinalog/2021-08-08_102117.png" data-size="1028x409">&lt;img src="https://vinalog.github.io/posts/h%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-%C4%91%C3%B3ng-g%C3%B3p-b%C3%A0i-vi%E1%BA%BFt-tr%C3%AAn-vinalog/2021-08-08_102117.png"
+srcset="https://vinalog.github.io/posts/h%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-%C4%91%C3%B3ng-g%C3%B3p-b%C3%A0i-vi%E1%BA%BFt-tr%C3%AAn-vinalog/2021-08-08_102117_hu41b4c83f8e3144308b10c86b1c5b0c9b_36655_480x0_resize_box_3.png 480w, https://vinalog.github.io/posts/h%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-%C4%91%C3%B3ng-g%C3%B3p-b%C3%A0i-vi%E1%BA%BFt-tr%C3%AAn-vinalog/2021-08-08_102117_hu41b4c83f8e3144308b10c86b1c5b0c9b_36655_1024x0_resize_box_3.png 1024w"
+width="1028"
+height="409"
+loading="lazy"
+>
+&lt;/a>
+&lt;/figure>&lt;/p>
+&lt;p>Sau khi đẩy code lên Github của bạn. Kết quả như thế này!&lt;/p>
+&lt;p>&lt;figure style="flex-grow: 186; flex-basis: 447px">
+&lt;a href="https://vinalog.github.io/posts/h%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-%C4%91%C3%B3ng-g%C3%B3p-b%C3%A0i-vi%E1%BA%BFt-tr%C3%AAn-vinalog/2021-08-08_102447.png" data-size="1146x614">&lt;img src="https://vinalog.github.io/posts/h%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-%C4%91%C3%B3ng-g%C3%B3p-b%C3%A0i-vi%E1%BA%BFt-tr%C3%AAn-vinalog/2021-08-08_102447.png"
+srcset="https://vinalog.github.io/posts/h%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-%C4%91%C3%B3ng-g%C3%B3p-b%C3%A0i-vi%E1%BA%BFt-tr%C3%AAn-vinalog/2021-08-08_102447_hub30a8443591266029afd67bad93672f9_44617_480x0_resize_box_3.png 480w, https://vinalog.github.io/posts/h%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-%C4%91%C3%B3ng-g%C3%B3p-b%C3%A0i-vi%E1%BA%BFt-tr%C3%AAn-vinalog/2021-08-08_102447_hub30a8443591266029afd67bad93672f9_44617_1024x0_resize_box_3.png 1024w"
+width="1146"
+height="614"
+loading="lazy"
+>
+&lt;/a>
+&lt;/figure>&lt;/p>
+&lt;p>Tiếp theo, bạn cần tạo một &lt;code>Pull requests&lt;/code> để đẩy &lt;strong>code về Github của VinaLog&lt;/strong>.&lt;/p>
+&lt;p>&lt;figure style="flex-grow: 191; flex-basis: 458px">
+&lt;a href="https://vinalog.github.io/posts/h%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-%C4%91%C3%B3ng-g%C3%B3p-b%C3%A0i-vi%E1%BA%BFt-tr%C3%AAn-vinalog/2021-08-08_102736.png" data-size="1126x589">&lt;img src="https://vinalog.github.io/posts/h%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-%C4%91%C3%B3ng-g%C3%B3p-b%C3%A0i-vi%E1%BA%BFt-tr%C3%AAn-vinalog/2021-08-08_102736.png"
+srcset="https://vinalog.github.io/posts/h%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-%C4%91%C3%B3ng-g%C3%B3p-b%C3%A0i-vi%E1%BA%BFt-tr%C3%AAn-vinalog/2021-08-08_102736_hu1c5c77c7cf12fbe445af301421a8c025_43555_480x0_resize_box_3.png 480w, https://vinalog.github.io/posts/h%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-%C4%91%C3%B3ng-g%C3%B3p-b%C3%A0i-vi%E1%BA%BFt-tr%C3%AAn-vinalog/2021-08-08_102736_hu1c5c77c7cf12fbe445af301421a8c025_43555_1024x0_resize_box_3.png 1024w"
+width="1126"
+height="589"
+loading="lazy"
+>
+&lt;/a>
+&lt;/figure>&lt;/p>
+&lt;p>&lt;figure style="flex-grow: 176; flex-basis: 423px">
+&lt;a href="https://vinalog.github.io/posts/h%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-%C4%91%C3%B3ng-g%C3%B3p-b%C3%A0i-vi%E1%BA%BFt-tr%C3%AAn-vinalog/2021-08-08_104353.png" data-size="1067x605">&lt;img src="https://vinalog.github.io/posts/h%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-%C4%91%C3%B3ng-g%C3%B3p-b%C3%A0i-vi%E1%BA%BFt-tr%C3%AAn-vinalog/2021-08-08_104353.png"
+srcset="https://vinalog.github.io/posts/h%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-%C4%91%C3%B3ng-g%C3%B3p-b%C3%A0i-vi%E1%BA%BFt-tr%C3%AAn-vinalog/2021-08-08_104353_hu825e7140dbe75fb85ec85dd17418788c_34469_480x0_resize_box_3.png 480w, https://vinalog.github.io/posts/h%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-%C4%91%C3%B3ng-g%C3%B3p-b%C3%A0i-vi%E1%BA%BFt-tr%C3%AAn-vinalog/2021-08-08_104353_hu825e7140dbe75fb85ec85dd17418788c_34469_1024x0_resize_box_3.png 1024w"
+width="1067"
+height="605"
+loading="lazy"
+alt="Comment của bạn ở đây">
+&lt;/a>
+&lt;figcaption>Comment của bạn ở đây&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;p>&lt;figure style="flex-grow: 208; flex-basis: 500px">
+&lt;a href="https://vinalog.github.io/posts/h%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-%C4%91%C3%B3ng-g%C3%B3p-b%C3%A0i-vi%E1%BA%BFt-tr%C3%AAn-vinalog/2021-08-08_104433.png" data-size="1120x537">&lt;img src="https://vinalog.github.io/posts/h%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-%C4%91%C3%B3ng-g%C3%B3p-b%C3%A0i-vi%E1%BA%BFt-tr%C3%AAn-vinalog/2021-08-08_104433.png"
+srcset="https://vinalog.github.io/posts/h%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-%C4%91%C3%B3ng-g%C3%B3p-b%C3%A0i-vi%E1%BA%BFt-tr%C3%AAn-vinalog/2021-08-08_104433_hufd2964cf53b0c238d2981eba162d884c_41574_480x0_resize_box_3.png 480w, https://vinalog.github.io/posts/h%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-%C4%91%C3%B3ng-g%C3%B3p-b%C3%A0i-vi%E1%BA%BFt-tr%C3%AAn-vinalog/2021-08-08_104433_hufd2964cf53b0c238d2981eba162d884c_41574_1024x0_resize_box_3.png 1024w"
+width="1120"
+height="537"
+loading="lazy"
+alt="Sau khi tạo Pull requests">
+&lt;/a>
+&lt;figcaption>Sau khi tạo Pull requests&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;p>&lt;figure style="flex-grow: 190; flex-basis: 456px">
+&lt;a href="https://vinalog.github.io/posts/h%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-%C4%91%C3%B3ng-g%C3%B3p-b%C3%A0i-vi%E1%BA%BFt-tr%C3%AAn-vinalog/2021-08-08_104555.png" data-size="749x394">&lt;img src="https://vinalog.github.io/posts/h%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-%C4%91%C3%B3ng-g%C3%B3p-b%C3%A0i-vi%E1%BA%BFt-tr%C3%AAn-vinalog/2021-08-08_104555.png"
+srcset="https://vinalog.github.io/posts/h%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-%C4%91%C3%B3ng-g%C3%B3p-b%C3%A0i-vi%E1%BA%BFt-tr%C3%AAn-vinalog/2021-08-08_104555_huea65e4e184ab585ea1e67c83e1e72adb_20012_480x0_resize_box_3.png 480w, https://vinalog.github.io/posts/h%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-%C4%91%C3%B3ng-g%C3%B3p-b%C3%A0i-vi%E1%BA%BFt-tr%C3%AAn-vinalog/2021-08-08_104555_huea65e4e184ab585ea1e67c83e1e72adb_20012_1024x0_resize_box_3.png 1024w"
+width="749"
+height="394"
+loading="lazy"
+alt="Theo dõi quá trình Pull requests">
+&lt;/a>
+&lt;figcaption>Theo dõi quá trình Pull requests&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;p>Bạn đợi bên VinaLog kiểm duyệt và bài viết của bạn sẽ được đăng lên VinaLog.&lt;/p>
+&lt;h2 id="kết-quả">Kết quả&lt;/h2>
+&lt;p>Trang chủ của VinaLog: &lt;a class="link" href="https://vinalog.github.io" target="_blank" rel="noopener"
+>https://vinalog.github.io&lt;/a>&lt;/p>
+&lt;p>&lt;figure style="flex-grow: 239; flex-basis: 574px">
+&lt;a href="https://vinalog.github.io/posts/h%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-%C4%91%C3%B3ng-g%C3%B3p-b%C3%A0i-vi%E1%BA%BFt-tr%C3%AAn-vinalog/2021-08-08_104848.png" data-size="1337x559">&lt;img src="https://vinalog.github.io/posts/h%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-%C4%91%C3%B3ng-g%C3%B3p-b%C3%A0i-vi%E1%BA%BFt-tr%C3%AAn-vinalog/2021-08-08_104848.png"
+srcset="https://vinalog.github.io/posts/h%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-%C4%91%C3%B3ng-g%C3%B3p-b%C3%A0i-vi%E1%BA%BFt-tr%C3%AAn-vinalog/2021-08-08_104848_hu1a410f21c9f954cb03c2b03e5459d002_106248_480x0_resize_box_3.png 480w, https://vinalog.github.io/posts/h%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-%C4%91%C3%B3ng-g%C3%B3p-b%C3%A0i-vi%E1%BA%BFt-tr%C3%AAn-vinalog/2021-08-08_104848_hu1a410f21c9f954cb03c2b03e5459d002_106248_1024x0_resize_box_3.png 1024w"
+width="1337"
+height="559"
+loading="lazy"
+>
+&lt;/a>
+&lt;/figure>&lt;/p>
+&lt;p>Chúc các bạn thành công!.&lt;/p></description></item></channel></rss>
