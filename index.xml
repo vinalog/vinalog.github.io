@@ -325,7 +325,7 @@
 &lt;ul>
 &lt;li>
 &lt;p>&lt;em>Chính kiến&lt;/em>&lt;/p>
-&lt;p>Điều thứ nhất và quan trọng nhất của Chính đạo. Thành quả của Chính kiến là sự giải trừ Vô minh, nó chống lại Tà kiến. Vô mình có nghĩa là không hiểu được các chân lý cao quý - tức Tứ diệu đế.&lt;/p>
+&lt;p>Điều thứ nhất và quan trọng nhất của Chính đạo. Thành quả của Chính kiến là sự giải trừ Vô minh, nó chống lại Tà kiến. Vô minh có nghĩa là không hiểu được cái chân lý cao quý - tức Tứ diệu đế.&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>&lt;em>Chính tư duy&lt;/em>&lt;/p>
@@ -421,6 +421,12 @@
 &lt;blockquote>
 &lt;p>Muốn thực hiện được những hạnh này phải có đủ Bát nhã (Trí tuệ).&lt;/p>
 &lt;/blockquote>
+&lt;h3 id="tam-pháp-ấn">Tam pháp ấn&lt;/h3>
+&lt;ol>
+&lt;li>Vô thường: Thành - Trụ - Hoại - Không (Sinh - Trụ - Dị - Diệt)&lt;/li>
+&lt;li>Vô ngã: không có cái gì tồn tại là không phụ vào vào cái khác.&lt;/li>
+&lt;li>Khổ&lt;/li>
+&lt;/ol>
 &lt;h2 id="tham-khảo">Tham khảo&lt;/h2>
 &lt;ol>
 &lt;li>&lt;a class="link" href="https://www.budsas.org/uni/u-kinh-truongbo/truong22.htm" target="_blank" rel="noopener"
@@ -430,6 +436,10 @@
 &lt;li>&lt;a class="link" href="https://thuvienhoasen.org/a28151/bai-thuyet-phap-dau-tien-cua-duc-phat" target="_blank" rel="noopener"
 >Bài thuyết pháp đầu tiên của Đức Phật&lt;/a> - &lt;a class="link" href="https://www.youtube.com/watch?v=JVd2zXgHhNY" target="_blank" rel="noopener"
 >Video on Youtube&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://vi.wikipedia.org/wiki/V%c3%b4_th%c6%b0%e1%bb%9dng" target="_blank" rel="noopener"
+>Vô thường&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://vi.wikipedia.org/wiki/V%c3%b4_ng%c3%a3" target="_blank" rel="noopener"
+>Vô ngã&lt;/a>&lt;/li>
 &lt;/ol></description></item><item><title>Hướng dẫn đóng góp bài viết trên VinaLog</title><link>https://vinalog.github.io/posts/h%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-%C4%91%C3%B3ng-g%C3%B3p-b%C3%A0i-vi%E1%BA%BFt-tr%C3%AAn-vinalog/</link><pubDate>Sun, 08 Aug 2021 13:00:00 +0700</pubDate><guid>https://vinalog.github.io/posts/h%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-%C4%91%C3%B3ng-g%C3%B3p-b%C3%A0i-vi%E1%BA%BFt-tr%C3%AAn-vinalog/</guid><description>&lt;img src="https://vinalog.github.io/posts/h%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-%C4%91%C3%B3ng-g%C3%B3p-b%C3%A0i-vi%E1%BA%BFt-tr%C3%AAn-vinalog/update.jpg" alt="Featured image of post Hướng dẫn đóng góp bài viết trên VinaLog" />&lt;p>Chào mọi người, mình xin phép được chia sẻ cách đăng bài viết trên VinaLog Github như sau:&lt;/p>
 &lt;h2 id="mã-nguồn-của-vinalog-github">Mã nguồn của VinaLog Github&lt;/h2>
 &lt;p>Đây là mã nguồn của VinaLog: &lt;a class="link" href="https://github.com/vinalog/vinalog.github.io" target="_blank" rel="noopener"
