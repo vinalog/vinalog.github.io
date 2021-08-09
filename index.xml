@@ -1,4 +1,136 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Your site | Vietnam Log.</title><link>https://vinalog.github.io/</link><description>Recent content on Your site | Vietnam Log.</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 08 Aug 2021 14:00:00 +0700</lastBuildDate><atom:link href="https://vinalog.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Con đường giải thoát của Đức Phật</title><link>https://vinalog.github.io/posts/con-%C4%91%C6%B0%E1%BB%9Dng-gi%E1%BA%A3i-tho%C3%A1t-c%E1%BB%A7a-%C4%91%E1%BB%A9c-ph%E1%BA%ADt/</link><pubDate>Sun, 08 Aug 2021 14:00:00 +0700</pubDate><guid>https://vinalog.github.io/posts/con-%C4%91%C6%B0%E1%BB%9Dng-gi%E1%BA%A3i-tho%C3%A1t-c%E1%BB%A7a-%C4%91%E1%BB%A9c-ph%E1%BA%ADt/</guid><description>&lt;img src="https://vinalog.github.io/posts/con-%C4%91%C6%B0%E1%BB%9Dng-gi%E1%BA%A3i-tho%C3%A1t-c%E1%BB%A7a-%C4%91%E1%BB%A9c-ph%E1%BA%ADt/phat.jpg" alt="Featured image of post Con đường giải thoát của Đức Phật" />&lt;p>Bài viết dựa trên &lt;strong>Kinh Đại niệm xứ&lt;/strong>.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Your site | Vietnam Log.</title><link>https://vinalog.github.io/</link><description>Recent content on Your site | Vietnam Log.</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 09 Aug 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://vinalog.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Công nghệ Thông tin</title><link>https://vinalog.github.io/posts/c%C3%B4ng-ngh%E1%BB%87-th%C3%B4ng-tin/</link><pubDate>Mon, 09 Aug 2021 00:00:00 +0000</pubDate><guid>https://vinalog.github.io/posts/c%C3%B4ng-ngh%E1%BB%87-th%C3%B4ng-tin/</guid><description>&lt;img src="https://vinalog.github.io/posts/c%C3%B4ng-ngh%E1%BB%87-th%C3%B4ng-tin/cntt.jpg" alt="Featured image of post Công nghệ Thông tin" />&lt;p>Nền tảng để biết thêm.&lt;/p>
+&lt;h2 id="câu-hỏi-và-trả-lời">Câu hỏi và Trả lời&lt;/h2>
+&lt;p>Làm công nghệ thông tin là làm gì?&lt;/p>
+&lt;p>Bên trong ngành công nghệ thông tin có gì? Bên trong ngành công nghệ thông tin có:&lt;/p>
+&lt;ul>
+&lt;li>Kỹ thuật phần mềm (phần mềm cho máy tính)&lt;/li>
+&lt;li>Kỹ thuật máy tính (phần cứng cho máy tính)&lt;/li>
+&lt;li>Truyền thông dữ liệu (mạng máy tính hay kết nối giữa các máy tính)&lt;/li>
+&lt;li>An toàn thông tin (bảo mật cho máy tính, cho phần mềm)&lt;/li>
+&lt;li>Hệ thống thông tin (cơ sở dữ liệu, hệ điều hành)&lt;/li>
+&lt;li>Khoa học máy tính (nghiên cứu khoa học trên máy tính, cho dữ liệu)&lt;/li>
+&lt;/ul>
+&lt;h2 id="thuật-ngữ">Thuật ngữ&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;p>Phần mềm (software)&lt;/p>
+&lt;ul>
+&lt;li>Phần mềm, ứng dụng (application), website, mobile, desktop, laptop, công cụ (tools).&lt;/li>
+&lt;li>Phiên bản (version), tag&lt;/li>
+&lt;li>Cập nhật (Update), nâng cấp (Uprade)&lt;/li>
+&lt;li>Mã (code), tư duy lập trình (logic), cơ bản (basic)&lt;/li>
+&lt;li>Hướng đối tượng (Object)&lt;/li>
+&lt;li>Middleware, Firmware&lt;/li>
+&lt;li>Lõi (core)&lt;/li>
+&lt;li>Phụ thuộc (dependency)&lt;/li>
+&lt;li>Xung đột (conflict)&lt;/li>
+&lt;li>Lưu trữ (backup), sao chép (copy) - snapshot, di chuyển (move)&lt;/li>
+&lt;li>Cấu hình (configuration)&lt;/li>
+&lt;li>Build (xây dựng)&lt;/li>
+&lt;li>Đường dẫn (Path) - tuyệt đối, tương đối.&lt;/li>
+&lt;li>Chỉnh sửa (Edit) - thêm (add), xoá (delete), sửa (modify). Mô hình CRUD (Create, Read, Update, Delete).&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>Phần cứng (hardware)&lt;/p>
+&lt;ul>
+&lt;li>Phần cứng, tài nguyên (resource)&lt;/li>
+&lt;li>RAM, ROM&lt;/li>
+&lt;li>CPU&lt;/li>
+&lt;li>Disk (ổ cứng, ổ đĩa)&lt;/li>
+&lt;li>Power&lt;/li>
+&lt;li>Thiết bị ngoại vi: màn hình, bàn phím, chuột, máy in, loa, &amp;hellip;&lt;/li>
+&lt;li>Cài đặt (Install), gỡ cài đặt (Uninstall)&lt;/li>
+&lt;li>Setup, Cách sử dụng (Usage)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>Mạng (network)&lt;/p>
+&lt;ul>
+&lt;li>Kết nối (connect), flow&lt;/li>
+&lt;li>Cổng (port)&lt;/li>
+&lt;li>Migration&lt;/li>
+&lt;li>Tích hợp, integration, plugin&lt;/li>
+&lt;li>Mô hình, diagram, mapping&lt;/li>
+&lt;li>Theo dõi (monitor)&lt;/li>
+&lt;li>Bảo mật (security)&lt;/li>
+&lt;li>Tự động (automation) &amp;gt;&amp;lt; Cơm (manual)&lt;/li>
+&lt;li>Deploy (triển khai)&lt;/li>
+&lt;li>Vận hành (operation)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>Thêm&lt;/p>
+&lt;ul>
+&lt;li>Tài liệu (documents), sách (book), videos, tài nguyên (resource)&lt;/li>
+&lt;li>Open mind, keep learning&lt;/li>
+&lt;li>Chứng chỉ (certificate)&lt;/li>
+&lt;li>Kinh nghiệm (exp)&lt;/li>
+&lt;li>Mối quan hệ (relationship)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="môi-trường">Môi trường&lt;/h2>
+&lt;h3 id="học-tập-nghiên-cứu">Học tập, nghiên cứu&lt;/h3>
+&lt;ul>
+&lt;li>Học tập&lt;/li>
+&lt;li>Nghiên cứu&lt;/li>
+&lt;/ul>
+&lt;h3 id="doanh-nghiệp-thực-tế">Doanh nghiệp, thực tế&lt;/h3>
+&lt;p>Trong môi trường doanh nghiệp, thực tế có gì? Có các phần cần chú ý:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>Phân chia cấp bậc (level)&lt;/p>
+&lt;p>Phân chia cấp bậc để làm gì?&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Phân chia theo nhóm (group, team)&lt;/p>
+&lt;p>Phân chia theo nhóm để làm gì?&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>Hướng về lợi ích (cá nhân, doanh nghiệp)&lt;/p>
+&lt;/blockquote>
+&lt;p>Mục đích của doanh nghiệp là gì?&lt;/p>
+&lt;p>Mục tiêu của doanh nghiệp là gì?&lt;/p>
+&lt;p>Hướng đi của doanh nghiệp là gì?&lt;/p>
+&lt;p>Kế hoạch của doanh nghiệp là gì?&lt;/p>
+&lt;p>Mong muốn của doanh nghiệp là gì?&lt;/p>
+&lt;ul>
+&lt;li>Làm thế nào để nhân viên làm việc hiệu quả?&lt;/li>
+&lt;li>Làm thế nào để tốn ít chi phí mà vẫn giữ được nhân viên giỏi?&lt;/li>
+&lt;/ul>
+&lt;h2 id="kỹ-năng">Kỹ năng&lt;/h2>
+&lt;ol>
+&lt;li>
+&lt;p>Đối với cá nhân&lt;/p>
+&lt;ul>
+&lt;li>Kỹ năng chuyên môn&lt;/li>
+&lt;li>Kỹ năng quản lý thời gian, đặt mục tiêu và lên kế hoạch&lt;/li>
+&lt;li>Kỹ năng giao tiếp hiệu quả&lt;/li>
+&lt;li>Kỹ năng quan sát, phân tích và học hỏi&lt;/li>
+&lt;li>Kỹ năng làm việc nhóm&lt;/li>
+&lt;li>Kỹ năng thuyết trình, chia sẻ&lt;/li>
+&lt;li>Trách nhiệm&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>Đối với quản lý&lt;/p>
+&lt;ul>
+&lt;li>Kỹ năng mềm&lt;/li>
+&lt;li>Kỹ năng lắng nghe&lt;/li>
+&lt;li>Đáng tin cậy, chữ tín&lt;/li>
+&lt;li>Kỹ năng sắp xếp thứ tự ưu tiên, quản lý thời gian,&amp;hellip;&lt;/li>
+&lt;li>Kỹ năng kiểm soát cảm xúc&lt;/li>
+&lt;li>Linh hoạt, lãnh đạo hiệu quả&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ol>
+&lt;h2 id="tham-khảo">Tham khảo&lt;/h2>
+&lt;ol>
+&lt;li>My mind&lt;/li>
+&lt;li>Chia sẻ từ mọi người xung quanh.&lt;/li>
+&lt;/ol></description></item><item><title>Con đường giải thoát của Đức Phật</title><link>https://vinalog.github.io/posts/con-%C4%91%C6%B0%E1%BB%9Dng-gi%E1%BA%A3i-tho%C3%A1t-c%E1%BB%A7a-%C4%91%E1%BB%A9c-ph%E1%BA%ADt/</link><pubDate>Sun, 08 Aug 2021 14:00:00 +0700</pubDate><guid>https://vinalog.github.io/posts/con-%C4%91%C6%B0%E1%BB%9Dng-gi%E1%BA%A3i-tho%C3%A1t-c%E1%BB%A7a-%C4%91%E1%BB%A9c-ph%E1%BA%ADt/</guid><description>&lt;img src="https://vinalog.github.io/posts/con-%C4%91%C6%B0%E1%BB%9Dng-gi%E1%BA%A3i-tho%C3%A1t-c%E1%BB%A7a-%C4%91%E1%BB%A9c-ph%E1%BA%ADt/phat.jpg" alt="Featured image of post Con đường giải thoát của Đức Phật" />&lt;p>Bài viết dựa trên &lt;strong>Kinh Đại niệm xứ&lt;/strong>.&lt;/p>
 &lt;p>Con đường độc nhất, đưa đến thanh tịnh cho chúng sanh, vượt khỏi sầu bi, diệt trừ khổ ưu, thành tựu Chánh lý và chứng ngộ Niết bàn. Đó là Bốn niệm xứ.&lt;/p>
 &lt;ul>
 &lt;li>Quán thân trên thân, nhiệt tâm, tỉnh giác, chánh niệm, để chế ngự tham ưu ở đời.&lt;/li>
