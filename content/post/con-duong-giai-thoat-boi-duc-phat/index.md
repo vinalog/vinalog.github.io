@@ -172,7 +172,7 @@ Tâm không giải thoát    | Biết rằng, tâm không được giải thoát
 
         - *Chính kiến*
 
-            Điều thứ nhất và quan trọng nhất của Chính đạo. Thành quả của Chính kiến là sự giải trừ Vô minh, nó chống lại Tà kiến. Vô mình có nghĩa là không hiểu được các chân lý cao quý - tức Tứ diệu đế.
+            Điều thứ nhất và quan trọng nhất của Chính đạo. Thành quả của Chính kiến là sự giải trừ Vô minh, nó chống lại Tà kiến. Vô minh có nghĩa là không hiểu được cái chân lý cao quý - tức Tứ diệu đế.
             
         - *Chính tư duy*
 
@@ -266,8 +266,16 @@ Trọng tâm của Đạo là con người, và mối tương quan giữa con ng
 
 > Muốn thực hiện được những hạnh này phải có đủ Bát nhã (Trí tuệ).
 
+### Tam pháp ấn
+
+1. Vô thường: Thành - Trụ - Hoại - Không (Sinh - Trụ - Dị - Diệt)
+2. Vô ngã: không có cái gì tồn tại là không phụ vào vào cái khác.
+3. Khổ
+
 ## Tham khảo
 
 1. [Trường bộ - Kinh Đại niệm xứ](https://www.budsas.org/uni/u-kinh-truongbo/truong22.htm)
 2. [Tứ thánh quả](https://vi.wikipedia.org/wiki/Tứ_thánh_quả)
 3. [Bài thuyết pháp đầu tiên của Đức Phật](https://thuvienhoasen.org/a28151/bai-thuyet-phap-dau-tien-cua-duc-phat) - [Video on Youtube](https://www.youtube.com/watch?v=JVd2zXgHhNY)
+4. [Vô thường](https://vi.wikipedia.org/wiki/Vô_thường)
+5. [Vô ngã](https://vi.wikipedia.org/wiki/Vô_ngã)
