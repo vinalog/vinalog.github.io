@@ -1,7 +1,7 @@
 ---
 author: Tri BUI
 title: "Hướng dẫn đóng góp bài viết trên VinaLog"
-date: 2021-08-08
+date: 2021-08-08T13:00:00+07:00
 tags:
     - Tutorial
     - Hướng dẫn

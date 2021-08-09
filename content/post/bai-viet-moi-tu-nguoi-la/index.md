@@ -1,6 +1,6 @@
 ---
 title: "Bài viết mới từ người lạ"
-date: 2021-08-08
+date: 2021-08-08T11:00:00+07:00
 tags:
     - Test
 categories:
