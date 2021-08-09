@@ -266,7 +266,7 @@ Trọng tâm của Đạo là con người, và mối tương quan giữa con ng
 
 > Muốn thực hiện được những hạnh này phải có đủ Bát nhã (Trí tuệ).
 
-### Tam pháp ấn
+## Tam pháp ấn
 
 1. Vô thường: Thành - Trụ - Hoại - Không (Sinh - Trụ - Dị - Diệt)
 2. Vô ngã: không có cái gì tồn tại là không phụ vào vào cái khác.
