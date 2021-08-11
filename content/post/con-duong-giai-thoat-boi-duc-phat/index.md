@@ -4,6 +4,7 @@ title: "Con đường giải thoát của Đức Phật"
 date: 2021-08-08T14:00:00+07:00
 draft: false
 image: phat.jpg
+lastmod: 2021-08-11
 ---
 
 Bài viết dựa trên **Kinh Đại niệm xứ**.
@@ -15,13 +16,15 @@ Con đường độc nhất, đưa đến thanh tịnh cho chúng sanh, vượt 
 - Quán tâm  trên tâm, nhiệt tâm, tỉnh giác, chánh niệm, để chế ngự tham ưu ở đời.
 - Quán pháp trên các pháp, nhiệt tâm, tỉnh giác, chánh niệm, để chế ngự tham ưu ở đời.
 
+[](/DaiNiemXu.mp3)
+
 ## Kinh Đại niệm xứ
 
 ### Quán thân
 
 1. Quán sát hơi thở
 
-    Quán sát hơi thở | Quán sát hơi thở
+    Hơi thở vô       | Hơi thở ra
     ---              | ---
     Thở vô           | Thở ra
     Thở vô, dài      | Thở ra, dài
@@ -33,7 +36,7 @@ Con đường độc nhất, đưa đến thanh tịnh cho chúng sanh, vượt 
 
 2. Quán sát tư thế
 
-    Quán sát tư thế | Quán sát tư thế
+    Tư thế          | Biết rằng
     ---             | ---
     Tôi đi          | Biết rằng, Tôi đi
     Tôi đứng        | Biết rằng, Tôi đứng
@@ -279,3 +282,4 @@ Trọng tâm của Đạo là con người, và mối tương quan giữa con ng
 3. [Bài thuyết pháp đầu tiên của Đức Phật](https://thuvienhoasen.org/a28151/bai-thuyet-phap-dau-tien-cua-duc-phat) - [Video on Youtube](https://www.youtube.com/watch?v=JVd2zXgHhNY)
 4. [Vô thường](https://vi.wikipedia.org/wiki/Vô_thường)
 5. [Vô ngã](https://vi.wikipedia.org/wiki/Vô_ngã)
+6. [Tứ chánh cần và Tứ niệm xứ - on Youtube](https://www.youtube.com/watch?v=aulxKhf3vug)
