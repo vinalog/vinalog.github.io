@@ -1,4 +1,168 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Your site | Vietnam Log.</title><link>https://vinalog.github.io/</link><description>Recent content on Your site | Vietnam Log.</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 09 Aug 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://vinalog.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Công nghệ Thông tin</title><link>https://vinalog.github.io/posts/c%C3%B4ng-ngh%E1%BB%87-th%C3%B4ng-tin/</link><pubDate>Mon, 09 Aug 2021 00:00:00 +0000</pubDate><guid>https://vinalog.github.io/posts/c%C3%B4ng-ngh%E1%BB%87-th%C3%B4ng-tin/</guid><description>&lt;img src="https://vinalog.github.io/posts/c%C3%B4ng-ngh%E1%BB%87-th%C3%B4ng-tin/cntt.jpg" alt="Featured image of post Công nghệ Thông tin" />&lt;p>Nền tảng để biết thêm.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Your site | Vietnam Log.</title><link>https://vinalog.github.io/</link><description>Recent content on Your site | Vietnam Log.</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 11 Aug 2021 10:50:00 +0700</lastBuildDate><atom:link href="https://vinalog.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Tất cả về sFTP</title><link>https://vinalog.github.io/posts/t%E1%BA%A5t-c%E1%BA%A3-v%E1%BB%81-sftp/</link><pubDate>Wed, 11 Aug 2021 10:50:00 +0700</pubDate><guid>https://vinalog.github.io/posts/t%E1%BA%A5t-c%E1%BA%A3-v%E1%BB%81-sftp/</guid><description>&lt;img src="https://vinalog.github.io/posts/t%E1%BA%A5t-c%E1%BA%A3-v%E1%BB%81-sftp/sftp.jpg" alt="Featured image of post Tất cả về sFTP" />&lt;h2 id="giới-thiệu-tổng-quan">Giới thiệu tổng quan&lt;/h2>
+&lt;h3 id="sftp-là-gì">sFTP là gì?&lt;/h3>
+&lt;p>sFTP là một giao thức mạng giúp người dùng có thể upload và download dữ liệu trên máy chủ. sFTP dùng SSH để kết nối nên dữ liệu được di chuyển sẽ bảo mật (mã hoá) hơn.&lt;/p>
+&lt;p>Thông tin thêm để tìm hiểu:&lt;/p>
+&lt;ul>
+&lt;li>Các kiểu mã hoá của SSH&lt;/li>
+&lt;/ul>
+&lt;h3 id="ssh-là-gì">SSH là gì?&lt;/h3>
+&lt;p>SSH là một giao thức mạng giúp người dùng có thể điều khiển máy tính từ xa qua Internet. SSH sinh ra để thay thế cho Telnet vốn không có mã hoá. SSH sử dụng port là 22.&lt;/p>
+&lt;h3 id="ftp-là-gì">FTP là gì?&lt;/h3>
+&lt;p>FTP là một giao thức giúp người dùng có thể chuyển dữ liệu từ máy tính này sang máy tính khác. FTP sử dụng 2 port là 20 và 21.&lt;/p>
+&lt;h3 id="đăng-nhâp">Đăng nhâp&lt;/h3>
+&lt;p>Để sử dụng được sFTP, bạn phải có tài khoản được lưu trữ trên máy chủ.&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>Đăng nhập trên Windows&lt;/p>
+&lt;ul>
+&lt;li>Sử dụng phần mềm Filezilla&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>Đăng nhập trên Linux&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>Sử dụng phần mềm Filezilla&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Sử dụng command line&lt;/p>
+&lt;pre>&lt;code>sftp user@ip_domain_localhost
+&lt;/code>&lt;/pre>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>Đăng nhập trên MacOS&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="cách-sử-dụng">Cách sử dụng&lt;/h2>
+&lt;ol>
+&lt;li>Tạo người dùng trên máy chủ&lt;/li>
+&lt;/ol>
+&lt;p>Sử dụng một số lệnh để tạo người dùng&lt;/p>
+&lt;pre>&lt;code>sudo useradd usersftp
+sudo passwd usersftp
+&lt;/code>&lt;/pre>&lt;ol start="2">
+&lt;li>Tạo thư mục để lưu trữ&lt;/li>
+&lt;/ol>
+&lt;p>Sử dụng một số lệnh để tạo thư mục&lt;/p>
+&lt;pre>&lt;code>mkdir -p /var/sftp/uploads
+&lt;/code>&lt;/pre>&lt;ol start="3">
+&lt;li>Cấu hình với giới hạn cho người dùng và thư mục&lt;/li>
+&lt;/ol>
+&lt;p>Sử dụng một số lệnh để giới hạn người dùng&lt;/p>
+&lt;pre>&lt;code>sudo chown root:root /var/sftp
+sudo chmod 755 /var/sftp
+sudo chown usersftp:usersftp /var/sftp/uploads
+&lt;/code>&lt;/pre>&lt;p>Hạn chế quyền truy cập vào thư mục&lt;/p>
+&lt;pre>&lt;code>vi /etc/ssh/sshd_config
+&lt;/code>&lt;/pre>&lt;pre>&lt;code>Match User usersftp
+ForceCommand internal-sftp -d sftp
+PasswordAuthentication yes
+ChrootDirectory /var/sftp
+X11Forwarding no
+AllowTcpForwarding no
+&lt;/code>&lt;/pre>&lt;p>Sau khi thay đổi, chúng ta sẽ khởi động lại dịch vụ SSH&lt;/p>
+&lt;pre>&lt;code>systemctl status sshd
+systemctl restart sshd
+&lt;/code>&lt;/pre>&lt;p>Đăng nhập thử&lt;/p>
+&lt;pre>&lt;code>ssh
+sftp
+&lt;/code>&lt;/pre>&lt;ol start="4">
+&lt;li>Một số lệnh thường dùng&lt;/li>
+&lt;/ol>
+&lt;ul>
+&lt;li>
+&lt;p>SSH&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>Đăng nhập&lt;/p>
+&lt;pre>&lt;code>ssh -p userssh@your_server_ip_or_remote_hostname
+&lt;/code>&lt;/pre>&lt;/li>
+&lt;li>
+&lt;p>Debug&lt;/p>
+&lt;pre>&lt;code>ssh -v userssh@your_server_ip_or_remote_hostname
+&lt;/code>&lt;/pre>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>sFTP&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>Đăng nhập&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">sftp -oPort&lt;span class="o">=&lt;/span>custom_port usersftp@your_server_ip_or_remote_hostname
+&lt;/code>&lt;/pre>&lt;/div>&lt;/li>
+&lt;li>
+&lt;p>Debug&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">sftp -o &lt;span class="nv">LogLevel&lt;/span>&lt;span class="o">=&lt;/span>DEBUG1 usersftp@your_server_ip_or_remote_hostname
+&lt;/code>&lt;/pre>&lt;/div>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="một-số-trường-hợp-cụ-thể">Một số trường hợp cụ thể&lt;/h2>
+&lt;h3 id="chỉ-1-người-dùng">Chỉ 1 người dùng&lt;/h3>
+&lt;pre>&lt;code>groupadd sftponly
+systemctl restart sshd
+&lt;/code>&lt;/pre>&lt;pre>&lt;code>Match Group sftponly
+ChrootDirectory /home/%u
+ForceCommand internal-sftp
+AllowTcpForwarding no
+PasswordAuthentication yes
+X11Forwarding no
+&lt;/code>&lt;/pre>&lt;pre>&lt;code>useradd -G sftponly -s /sbin/nologin user1
+chown root /home/user1
+chmod g+rx /home/user1
+&lt;/code>&lt;/pre>&lt;pre>&lt;code>mkdir /home/user1/data
+chown user1:user1 /home/user1/data
+&lt;/code>&lt;/pre>&lt;p>Chứng thực qua SSH keys.&lt;/p>
+&lt;pre>&lt;code>chown user1:user1 /home/user1/data
+chown user1:user1 /home/user1/.ssh
+chmod 0700 /home/user1/.ssh
+&lt;/code>&lt;/pre>&lt;p>Kiểm tra&lt;/p>
+&lt;pre>&lt;code>sftp user1@ip_domain_localhost
+sftp -o LogLevel=DEBUG1 user1@ip_domain_localhost
+&lt;/code>&lt;/pre>&lt;h3 id="nhiều-người-dùng">Nhiều người dùng&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="c1">#Create okchakela group&lt;/span>
+groupadd okchakela
+&lt;span class="c1">#Add members and specify the home directory&lt;/span>
+useradd Codeeer -d /mnt/data1/Private/Codeeer -s /sbin/nologin -G okchakela
+useradd Ridesky -d /mnt/data1/Private/Ridesky -s /sbin/nologin -G okchakela
+useradd Dorothy -d /mnt/data1/Private/Dorothy -s /sbin/nologin -G okchakela
+&lt;span class="c1">#Create ftpaccess group&lt;/span>
+groupadd ftpaccess
+&lt;span class="c1">#Add member&lt;/span>
+useradd py -s /sbin/nologin -G ftpaccess
+&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="c1">#For matching okchakela group&lt;/span>
+chown root:root /
+chown root:root /mnt
+chown root:root /mnt/data1
+chown root:root /mnt/data1/Private
+&lt;span class="c1">#Set the owner of the user&amp;#39;s private directory&lt;/span>
+chown -R Codeeer /mnt/data1/Private/Codeeer
+chown -R Ridesky /mnt/data1/Private/Ridesky
+chown -R Dorothy /mnt/data1/Private/Dorothy
+&lt;span class="c1">#Set up permissions that other people cannot access (700)&lt;/span>
+chmod -R &lt;span class="m">700&lt;/span> /mnt/data1/Private/Codeeer
+chmod -R &lt;span class="m">700&lt;/span> /mnt/data1/Private/Ridesky
+chmod -R &lt;span class="m">700&lt;/span> /mnt/data1/Private/Dorothy
+&lt;span class="c1">#Used to match ftpaccess group&lt;/span>
+chown root:root /home
+&lt;span class="c1">#Set the owner of the user&amp;#39;s private directory&lt;/span>
+chown py /home/py
+&lt;span class="c1">#Set up permissions that other people cannot access (700)&lt;/span>
+chmod &lt;span class="m">700&lt;/span> /home/py
+&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="tham-khảo">Tham khảo&lt;/h2>
+&lt;ol>
+&lt;li>&lt;a class="link" href="https://blog.tinned-software.net/setup-sftp-only-account-using-openssh-and-ssh-key/" target="_blank" rel="noopener"
+>https://blog.tinned-software.net/setup-sftp-only-account-using-openssh-and-ssh-key/&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://www.programmersought.com/article/24614931803/" target="_blank" rel="noopener"
+>https://www.programmersought.com/article/24614931803/&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://www.digitalocean.com/community/tutorials/how-to-use-sftp-to-securely-transfer-files-with-a-remote-server" target="_blank" rel="noopener"
+>https://www.digitalocean.com/community/tutorials/how-to-use-sftp-to-securely-transfer-files-with-a-remote-server&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://vi.wikipedia.org/wiki/SSH" target="_blank" rel="noopener"
+>https://vi.wikipedia.org/wiki/SSH&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://vi.wikipedia.org/wiki/FTP" target="_blank" rel="noopener"
+>https://vi.wikipedia.org/wiki/FTP&lt;/a>&lt;/li>
+&lt;/ol></description></item><item><title>Công nghệ Thông tin</title><link>https://vinalog.github.io/posts/c%C3%B4ng-ngh%E1%BB%87-th%C3%B4ng-tin/</link><pubDate>Mon, 09 Aug 2021 00:00:00 +0000</pubDate><guid>https://vinalog.github.io/posts/c%C3%B4ng-ngh%E1%BB%87-th%C3%B4ng-tin/</guid><description>&lt;img src="https://vinalog.github.io/posts/c%C3%B4ng-ngh%E1%BB%87-th%C3%B4ng-tin/cntt.jpg" alt="Featured image of post Công nghệ Thông tin" />&lt;p>Nền tảng để biết thêm.&lt;/p>
 &lt;h2 id="câu-hỏi-và-trả-lời">Câu hỏi và Trả lời&lt;/h2>
 &lt;p>Làm công nghệ thông tin là làm gì?&lt;/p>
 &lt;p>Bên trong ngành công nghệ thông tin có gì? Bên trong ngành công nghệ thông tin có:&lt;/p>

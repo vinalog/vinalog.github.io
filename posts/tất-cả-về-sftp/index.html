@@ -1,0 +1,333 @@
+<!doctype html><html lang=en-us>
+<head><meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1"><meta name=description content="Giới thiệu tổng quan sFTP là gì? sFTP là một giao thức mạng giúp người dùng có thể upload và download dữ liệu trên máy chủ. sFTP dùng SSH để kết nối nên dữ liệu được di chuyển sẽ bảo mật (mã hoá) hơn.
+Thông tin thêm để tìm hiểu:
+ Các kiểu mã hoá của SSH  SSH là gì? SSH là một giao thức mạng giúp người dùng có thể điều khiển máy tính từ xa qua Internet."><title>Tất cả về sFTP</title>
+<link rel=canonical href=https://vinalog.github.io/posts/t%E1%BA%A5t-c%E1%BA%A3-v%E1%BB%81-sftp/>
+<link rel=stylesheet href=/scss/style.min.css><meta property="og:title" content="Tất cả về sFTP">
+<meta property="og:description" content="Giới thiệu tổng quan sFTP là gì? sFTP là một giao thức mạng giúp người dùng có thể upload và download dữ liệu trên máy chủ. sFTP dùng SSH để kết nối nên dữ liệu được di chuyển sẽ bảo mật (mã hoá) hơn.
+Thông tin thêm để tìm hiểu:
+ Các kiểu mã hoá của SSH  SSH là gì? SSH là một giao thức mạng giúp người dùng có thể điều khiển máy tính từ xa qua Internet.">
+<meta property="og:url" content="https://vinalog.github.io/posts/t%E1%BA%A5t-c%E1%BA%A3-v%E1%BB%81-sftp/">
+<meta property="og:site_name" content="Your site | Vietnam Log.">
+<meta property="og:type" content="article"><meta property="article:section" content="Post"><meta property="article:tag" content="SSH"><meta property="article:tag" content="FTP"><meta property="article:tag" content="sFTP"><meta property="article:published_time" content="2021-08-11T10:50:00+07:00"><meta property="article:modified_time" content="2021-08-11T10:50:00+07:00"><meta property="og:image" content="https://vinalog.github.io/posts/t%E1%BA%A5t-c%E1%BA%A3-v%E1%BB%81-sftp/sftp.jpg">
+<meta name=twitter:title content="Tất cả về sFTP">
+<meta name=twitter:description content="Giới thiệu tổng quan sFTP là gì? sFTP là một giao thức mạng giúp người dùng có thể upload và download dữ liệu trên máy chủ. sFTP dùng SSH để kết nối nên dữ liệu được di chuyển sẽ bảo mật (mã hoá) hơn.
+Thông tin thêm để tìm hiểu:
+ Các kiểu mã hoá của SSH  SSH là gì? SSH là một giao thức mạng giúp người dùng có thể điều khiển máy tính từ xa qua Internet."><meta name=twitter:card content="summary_large_image">
+<meta name=twitter:image content="https://vinalog.github.io/posts/t%E1%BA%A5t-c%E1%BA%A3-v%E1%BB%81-sftp/sftp.jpg">
+</head>
+<body class="article-page has-toc">
+<script>(function(){const a='StackColorScheme';localStorage.getItem(a)||localStorage.setItem(a,"auto")})()</script><script>(function(){const b='StackColorScheme',a=localStorage.getItem(b),c=window.matchMedia('(prefers-color-scheme: dark)').matches===!0;a=='dark'||a==='auto'&&c?document.documentElement.dataset.scheme='dark':document.documentElement.dataset.scheme='light'})()</script>
+<div class="container main-container flex
+extended">
+<div id=article-toolbar>
+<a href=https://vinalog.github.io class=back-home><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><polyline points="15 6 9 12 15 18"/></svg>
+<span>Back</span>
+</a>
+</div>
+<main class="main full-width">
+<article class="has-image main-article">
+<header class=article-header>
+<div class=article-image>
+<a href=/posts/t%E1%BA%A5t-c%E1%BA%A3-v%E1%BB%81-sftp/>
+<img src=/posts/t%E1%BA%A5t-c%E1%BA%A3-v%E1%BB%81-sftp/sftp_hu00683985d17bfe3f9fa3a9548b24fffb_29444_800x0_resize_q75_box.jpg srcset="/posts/t%E1%BA%A5t-c%E1%BA%A3-v%E1%BB%81-sftp/sftp_hu00683985d17bfe3f9fa3a9548b24fffb_29444_800x0_resize_q75_box.jpg 800w, /posts/t%E1%BA%A5t-c%E1%BA%A3-v%E1%BB%81-sftp/sftp_hu00683985d17bfe3f9fa3a9548b24fffb_29444_1600x0_resize_q75_box.jpg 1600w" width=800 height=371 loading=lazy alt="Featured image of post Tất cả về sFTP">
+</a>
+</div>
+<div class=article-details>
+<header class=article-category>
+<a href=/categories/learn/>
+Learn
+</a>
+</header>
+<h2 class=article-title>
+<a href=/posts/t%E1%BA%A5t-c%E1%BA%A3-v%E1%BB%81-sftp/>Tất cả về sFTP</a>
+</h2>
+<footer class=article-time>
+<div><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><path d="M11.795 21H5a2 2 0 01-2-2V7a2 2 0 012-2h12a2 2 0 012 2v4"/><circle cx="18" cy="18" r="4"/><path d="M15 3v4"/><path d="M7 3v4"/><path d="M3 11h16"/><path d="M18 16.496V18l1 1"/></svg>
+<time class=article-time--published>Aug 11, 2021</time>
+</div>
+<div><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><circle cx="12" cy="12" r="9"/><polyline points="12 7 12 12 15 15"/></svg>
+<time class=article-time--reading>
+3 min read
+</time>
+</div>
+</footer>
+</div>
+</header>
+<section class=article-content>
+<h2 id=giới-thiệu-tổng-quan>Giới thiệu tổng quan</h2>
+<h3 id=sftp-là-gì>sFTP là gì?</h3>
+<p>sFTP là một giao thức mạng giúp người dùng có thể upload và download dữ liệu trên máy chủ. sFTP dùng SSH để kết nối nên dữ liệu được di chuyển sẽ bảo mật (mã hoá) hơn.</p>
+<p>Thông tin thêm để tìm hiểu:</p>
+<ul>
+<li>Các kiểu mã hoá của SSH</li>
+</ul>
+<h3 id=ssh-là-gì>SSH là gì?</h3>
+<p>SSH là một giao thức mạng giúp người dùng có thể điều khiển máy tính từ xa qua Internet. SSH sinh ra để thay thế cho Telnet vốn không có mã hoá. SSH sử dụng port là 22.</p>
+<h3 id=ftp-là-gì>FTP là gì?</h3>
+<p>FTP là một giao thức giúp người dùng có thể chuyển dữ liệu từ máy tính này sang máy tính khác. FTP sử dụng 2 port là 20 và 21.</p>
+<h3 id=đăng-nhâp>Đăng nhâp</h3>
+<p>Để sử dụng được sFTP, bạn phải có tài khoản được lưu trữ trên máy chủ.</p>
+<ul>
+<li>
+<p>Đăng nhập trên Windows</p>
+<ul>
+<li>Sử dụng phần mềm Filezilla</li>
+</ul>
+</li>
+<li>
+<p>Đăng nhập trên Linux</p>
+<ul>
+<li>
+<p>Sử dụng phần mềm Filezilla</p>
+</li>
+<li>
+<p>Sử dụng command line</p>
+<pre><code>sftp user@ip_domain_localhost
+</code></pre></li>
+</ul>
+</li>
+<li>
+<p>Đăng nhập trên MacOS</p>
+</li>
+</ul>
+<h2 id=cách-sử-dụng>Cách sử dụng</h2>
+<ol>
+<li>Tạo người dùng trên máy chủ</li>
+</ol>
+<p>Sử dụng một số lệnh để tạo người dùng</p>
+<pre><code>sudo useradd usersftp
+sudo passwd usersftp
+</code></pre><ol start=2>
+<li>Tạo thư mục để lưu trữ</li>
+</ol>
+<p>Sử dụng một số lệnh để tạo thư mục</p>
+<pre><code>mkdir -p /var/sftp/uploads
+</code></pre><ol start=3>
+<li>Cấu hình với giới hạn cho người dùng và thư mục</li>
+</ol>
+<p>Sử dụng một số lệnh để giới hạn người dùng</p>
+<pre><code>sudo chown root:root /var/sftp
+sudo chmod 755 /var/sftp
+
+sudo chown usersftp:usersftp /var/sftp/uploads
+</code></pre><p>Hạn chế quyền truy cập vào thư mục</p>
+<pre><code>vi /etc/ssh/sshd_config
+</code></pre><pre><code>Match User usersftp
+        ForceCommand internal-sftp -d sftp
+        PasswordAuthentication yes
+        ChrootDirectory /var/sftp
+        X11Forwarding no
+        AllowTcpForwarding no
+</code></pre><p>Sau khi thay đổi, chúng ta sẽ khởi động lại dịch vụ SSH</p>
+<pre><code>systemctl status sshd
+systemctl restart sshd
+</code></pre><p>Đăng nhập thử</p>
+<pre><code>ssh
+sftp
+</code></pre><ol start=4>
+<li>Một số lệnh thường dùng</li>
+</ol>
+<ul>
+<li>
+<p>SSH</p>
+<ul>
+<li>
+<p>Đăng nhập</p>
+<pre><code>ssh -p userssh@your_server_ip_or_remote_hostname
+</code></pre></li>
+<li>
+<p>Debug</p>
+<pre><code>ssh -v userssh@your_server_ip_or_remote_hostname
+</code></pre></li>
+</ul>
+</li>
+<li>
+<p>sFTP</p>
+<ul>
+<li>
+<p>Đăng nhập</p>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash>sftp -oPort<span class=o>=</span>custom_port usersftp@your_server_ip_or_remote_hostname
+</code></pre></div></li>
+<li>
+<p>Debug</p>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash>sftp -o <span class=nv>LogLevel</span><span class=o>=</span>DEBUG1 usersftp@your_server_ip_or_remote_hostname
+</code></pre></div></li>
+</ul>
+</li>
+</ul>
+<h2 id=một-số-trường-hợp-cụ-thể>Một số trường hợp cụ thể</h2>
+<h3 id=chỉ-1-người-dùng>Chỉ 1 người dùng</h3>
+<pre><code>groupadd sftponly
+
+systemctl restart sshd
+</code></pre><pre><code>Match Group sftponly
+    ChrootDirectory /home/%u
+    ForceCommand internal-sftp
+    AllowTcpForwarding no
+    PasswordAuthentication yes
+    X11Forwarding no
+</code></pre><pre><code>useradd -G sftponly -s /sbin/nologin user1
+chown root /home/user1
+chmod g+rx /home/user1
+</code></pre><pre><code>mkdir /home/user1/data
+chown user1:user1 /home/user1/data
+</code></pre><p>Chứng thực qua SSH keys.</p>
+<pre><code>chown user1:user1 /home/user1/data
+chown user1:user1 /home/user1/.ssh
+chmod 0700 /home/user1/.ssh 
+</code></pre><p>Kiểm tra</p>
+<pre><code>sftp user1@ip_domain_localhost
+sftp -o LogLevel=DEBUG1 user1@ip_domain_localhost
+</code></pre><h3 id=nhiều-người-dùng>Nhiều người dùng</h3>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=c1>#Create okchakela group</span>
+groupadd okchakela
+<span class=c1>#Add members and specify the home directory</span>
+useradd Codeeer -d /mnt/data1/Private/Codeeer -s /sbin/nologin -G okchakela
+useradd Ridesky -d /mnt/data1/Private/Ridesky -s /sbin/nologin -G okchakela
+useradd Dorothy -d /mnt/data1/Private/Dorothy -s /sbin/nologin -G okchakela
+ 
+<span class=c1>#Create ftpaccess group</span>
+groupadd ftpaccess
+<span class=c1>#Add member</span>
+useradd py -s /sbin/nologin -G ftpaccess
+</code></pre></div><div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=c1>#For matching okchakela group</span>
+chown root:root /
+chown root:root /mnt
+chown root:root /mnt/data1
+chown root:root /mnt/data1/Private
+<span class=c1>#Set the owner of the user&#39;s private directory</span>
+chown -R Codeeer /mnt/data1/Private/Codeeer
+chown -R Ridesky /mnt/data1/Private/Ridesky
+chown -R Dorothy /mnt/data1/Private/Dorothy
+<span class=c1>#Set up permissions that other people cannot access (700)</span>
+chmod -R <span class=m>700</span> /mnt/data1/Private/Codeeer
+chmod -R <span class=m>700</span> /mnt/data1/Private/Ridesky
+chmod -R <span class=m>700</span> /mnt/data1/Private/Dorothy
+ 
+<span class=c1>#Used to match ftpaccess group</span>
+chown root:root /home
+<span class=c1>#Set the owner of the user&#39;s private directory</span>
+chown py /home/py
+<span class=c1>#Set up permissions that other people cannot access (700)</span>
+chmod <span class=m>700</span> /home/py
+</code></pre></div><h2 id=tham-khảo>Tham khảo</h2>
+<ol>
+<li><a class=link href=https://blog.tinned-software.net/setup-sftp-only-account-using-openssh-and-ssh-key/ target=_blank rel=noopener>https://blog.tinned-software.net/setup-sftp-only-account-using-openssh-and-ssh-key/</a></li>
+<li><a class=link href=https://www.programmersought.com/article/24614931803/ target=_blank rel=noopener>https://www.programmersought.com/article/24614931803/</a></li>
+<li><a class=link href=https://www.digitalocean.com/community/tutorials/how-to-use-sftp-to-securely-transfer-files-with-a-remote-server target=_blank rel=noopener>https://www.digitalocean.com/community/tutorials/how-to-use-sftp-to-securely-transfer-files-with-a-remote-server</a></li>
+<li><a class=link href=https://vi.wikipedia.org/wiki/SSH target=_blank rel=noopener>https://vi.wikipedia.org/wiki/SSH</a></li>
+<li><a class=link href=https://vi.wikipedia.org/wiki/FTP target=_blank rel=noopener>https://vi.wikipedia.org/wiki/FTP</a></li>
+</ol>
+</section>
+<footer class=article-footer>
+<section class=article-tags>
+<a href=/tags/ssh/>SSH</a>
+<a href=/tags/ftp/>FTP</a>
+<a href=/tags/sftp/>sFTP</a>
+</section>
+<section class=article-copyright><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><circle cx="12" cy="12" r="9"/><path d="M14.5 9a3.5 4 0 100 6"/></svg>
+<span>Licensed under CC BY-NC-SA 4.0</span>
+</section>
+</footer>
+</article>
+<aside class=related-contents--wrapper>
+<h2 class=section-title>Related contents</h2>
+<div class=related-contents>
+<div class="flex article-list--tile">
+<article class=has-image>
+<a href=/posts/english-language/>
+<div class=article-image>
+<img src=/posts/english-language/english.72554d544da28d43321fa8d7228778d7_hue90644ca7f52cb493f1fe02719a72ba8_50648_250x150_fill_q75_box_smart1.jpg width=250 height=150 loading=lazy data-key data-hash="md5-clVNVE2ijUMyH6jXIod41w==">
+</div>
+<div class=article-details>
+<h2 class=article-title>English language</h2>
+</div>
+</a>
+</article>
+</div>
+</div>
+</aside>
+<footer class=site-footer>
+<section class=copyright>
+&copy;
+2020 -
+2021 Your site | Vietnam Log.
+</section>
+<section class=powerby>
+Built with <a href=https://gohugo.io/ target=_blank rel=noopener>Hugo</a> <br>
+Theme <b><a href=https://github.com/CaiJimmy/hugo-theme-stack target=_blank rel=noopener data-version=2.5.0>Stack</a></b> designed by <a href=https://jimmycai.com target=_blank rel=noopener>Jimmy</a>
+</section>
+</footer>
+<div class=pswp tabindex=-1 role=dialog aria-hidden=true>
+<div class=pswp__bg></div>
+<div class=pswp__scroll-wrap>
+<div class=pswp__container>
+<div class=pswp__item></div>
+<div class=pswp__item></div>
+<div class=pswp__item></div>
+</div>
+<div class="pswp__ui pswp__ui--hidden">
+<div class=pswp__top-bar>
+<div class=pswp__counter></div>
+<button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+<button class="pswp__button pswp__button--share" title=Share></button>
+<button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+<button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+<div class=pswp__preloader>
+<div class=pswp__preloader__icn>
+<div class=pswp__preloader__cut>
+<div class=pswp__preloader__donut></div>
+</div>
+</div>
+</div>
+</div>
+<div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+<div class=pswp__share-tooltip></div>
+</div>
+<button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+</button>
+<button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+</button>
+<div class=pswp__caption>
+<div class=pswp__caption__center></div>
+</div>
+</div>
+</div>
+</div><script src=https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo=" crossorigin=anonymous defer></script><script src=https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU=" crossorigin=anonymous defer></script><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.css integrity="sha256-c0uckgykQ9v5k+IqViZOZKc47Jn7KQil4/MP3ySA3F8=" crossorigin=anonymous><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.css integrity="sha256-SBLU4vv6CA6lHsZ1XyTdhyjJxCjPif/TRkjnsyGAGnE=" crossorigin=anonymous>
+</main>
+<aside class="sidebar right-sidebar sticky">
+<section class="widget archives">
+<div class=widget-icon><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><line x1="5" y1="9" x2="19" y2="9"/><line x1="5" y1="15" x2="19" y2="15"/><line x1="11" y1="4" x2="7" y2="20"/><line x1="17" y1="4" x2="13" y2="20"/></svg>
+</div>
+<h2 class="widget-title section-title">Table of contents</h2>
+<div class=widget--toc>
+<nav id=TableOfContents>
+<ol>
+<li><a href=#giới-thiệu-tổng-quan>Giới thiệu tổng quan</a>
+<ol>
+<li><a href=#sftp-là-gì>sFTP là gì?</a></li>
+<li><a href=#ssh-là-gì>SSH là gì?</a></li>
+<li><a href=#ftp-là-gì>FTP là gì?</a></li>
+<li><a href=#đăng-nhâp>Đăng nhâp</a></li>
+</ol>
+</li>
+<li><a href=#cách-sử-dụng>Cách sử dụng</a></li>
+<li><a href=#một-số-trường-hợp-cụ-thể>Một số trường hợp cụ thể</a>
+<ol>
+<li><a href=#chỉ-1-người-dùng>Chỉ 1 người dùng</a></li>
+<li><a href=#nhiều-người-dùng>Nhiều người dùng</a></li>
+</ol>
+</li>
+<li><a href=#tham-khảo>Tham khảo</a></li>
+</ol>
+</nav>
+</div>
+</section>
+</aside>
+</div>
+<script src=https://cdn.jsdelivr.net/npm/node-vibrant@3.1.5/dist/vibrant.min.js integrity="sha256-5NovOZc4iwiAWTYIFiIM7DxKUXKWvpVEuMEPLzcm5/g=" crossorigin=anonymous defer></script><script type=text/javascript src=/ts/main.js defer></script>
+<script>(function(){const a=document.createElement('link');a.href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap",a.type="text/css",a.rel="stylesheet",document.head.appendChild(a)})()</script>
+</body>
+</html>
