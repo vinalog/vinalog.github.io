@@ -1,6 +1,6 @@
 ---
 author: Ethan BUI
-title: "Tất cả về sFTP"
+title: "Tất cả về sFTP, SSH và FTP"
 date: 2021-08-11T10:50:00+07:00
 tags:
     - SSH
@@ -118,6 +118,22 @@ sftp
 
     ```
     ssh -v userssh@your_server_ip_or_remote_hostname
+    ```
+
+  - Tạo SSK key
+
+    ```
+    ssh-keygen
+    ```
+  
+  - Copy SSH key
+
+    ```bash
+    ssh-copy-id username@remote_host
+
+    # or
+    cat ~/.ssh/id_rsa.pub | ssh username@remote_host "mkdir -p ~/.ssh && cat >> ~/.ssh/authorized_keys"
+
     ```
 
 * sFTP
