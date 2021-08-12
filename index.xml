@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Your site | Vietnam Log.</title><link>https://vinalog.github.io/</link><description>Recent content on Your site | Vietnam Log.</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 11 Aug 2021 10:50:00 +0700</lastBuildDate><atom:link href="https://vinalog.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Tất cả về sFTP</title><link>https://vinalog.github.io/posts/t%E1%BA%A5t-c%E1%BA%A3-v%E1%BB%81-sftp/</link><pubDate>Wed, 11 Aug 2021 10:50:00 +0700</pubDate><guid>https://vinalog.github.io/posts/t%E1%BA%A5t-c%E1%BA%A3-v%E1%BB%81-sftp/</guid><description>&lt;img src="https://vinalog.github.io/posts/t%E1%BA%A5t-c%E1%BA%A3-v%E1%BB%81-sftp/sftp.jpg" alt="Featured image of post Tất cả về sFTP" />&lt;h2 id="giới-thiệu-tổng-quan">Giới thiệu tổng quan&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Your site | Vietnam Log.</title><link>https://vinalog.github.io/</link><description>Recent content on Your site | Vietnam Log.</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 11 Aug 2021 10:50:00 +0700</lastBuildDate><atom:link href="https://vinalog.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Tất cả về sFTP, SSH và FTP</title><link>https://vinalog.github.io/posts/t%E1%BA%A5t-c%E1%BA%A3-v%E1%BB%81-sftp-ssh-v%C3%A0-ftp/</link><pubDate>Wed, 11 Aug 2021 10:50:00 +0700</pubDate><guid>https://vinalog.github.io/posts/t%E1%BA%A5t-c%E1%BA%A3-v%E1%BB%81-sftp-ssh-v%C3%A0-ftp/</guid><description>&lt;img src="https://vinalog.github.io/posts/t%E1%BA%A5t-c%E1%BA%A3-v%E1%BB%81-sftp-ssh-v%C3%A0-ftp/sftp.jpg" alt="Featured image of post Tất cả về sFTP, SSH và FTP" />&lt;h2 id="giới-thiệu-tổng-quan">Giới thiệu tổng quan&lt;/h2>
 &lt;h3 id="sftp-là-gì">sFTP là gì?&lt;/h3>
 &lt;p>sFTP là một giao thức mạng giúp người dùng có thể upload và download dữ liệu trên máy chủ. sFTP dùng SSH để kết nối nên dữ liệu được di chuyển sẽ bảo mật (mã hoá) hơn.&lt;/p>
 &lt;p>Thông tin thêm để tìm hiểu:&lt;/p>
@@ -82,6 +82,16 @@ sftp
 &lt;p>Debug&lt;/p>
 &lt;pre>&lt;code>ssh -v userssh@your_server_ip_or_remote_hostname
 &lt;/code>&lt;/pre>&lt;/li>
+&lt;li>
+&lt;p>Tạo SSK key&lt;/p>
+&lt;pre>&lt;code>ssh-keygen
+&lt;/code>&lt;/pre>&lt;/li>
+&lt;li>
+&lt;p>Copy SSH key&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">ssh-copy-id username@remote_host
+&lt;span class="c1"># or&lt;/span>
+cat ~/.ssh/id_rsa.pub &lt;span class="p">|&lt;/span> ssh username@remote_host &lt;span class="s2">&amp;#34;mkdir -p ~/.ssh &amp;amp;&amp;amp; cat &amp;gt;&amp;gt; ~/.ssh/authorized_keys&amp;#34;&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;/li>
 &lt;/ul>
 &lt;/li>
 &lt;li>
