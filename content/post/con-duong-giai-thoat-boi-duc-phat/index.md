@@ -82,7 +82,7 @@ Con đường độc nhất, đưa đến thanh tịnh cho chúng sanh, vượt 
 
 7. Quán thân bất tịnh
 
-    ... đang cập nhật...
+    [Ở đây](https://youtu.be/0LR_wEKUxOY)
 
 ### Quán thọ
 
@@ -275,6 +275,10 @@ Trọng tâm của Đạo là con người, và mối tương quan giữa con ng
 2. Vô ngã: không có cái gì tồn tại là không phụ vào vào cái khác.
 3. Khổ
 
+## Thêm
+
+### Kinh Thủ Lăng Nghiêm
+
 ## Tham khảo
 
 1. [Trường bộ - Kinh Đại niệm xứ](https://www.budsas.org/uni/u-kinh-truongbo/truong22.htm)
@@ -283,3 +287,5 @@ Trọng tâm của Đạo là con người, và mối tương quan giữa con ng
 4. [Vô thường](https://vi.wikipedia.org/wiki/Vô_thường)
 5. [Vô ngã](https://vi.wikipedia.org/wiki/Vô_ngã)
 6. [Tứ chánh cần và Tứ niệm xứ - on Youtube](https://www.youtube.com/watch?v=aulxKhf3vug)
+7. [An sĩ toàn thư](https://www.youtube.com/playlist?list=PLS1qGEdEAca0JcjYt5GwJ_CzIW4JOVzpd)
+8. [Kinh Thủ Lăng Nghiêm](https://drive.google.com/file/d/1DgDApyVXy4lLJ94jyia8CPSoYG-3I-Gu/view) - [on Youtube](https://youtu.be/l6siifGi-3s)
