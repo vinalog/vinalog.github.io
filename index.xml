@@ -670,7 +670,8 @@ Yes, that is good. Where would you like to go?
 &lt;/li>
 &lt;li>
 &lt;p>Quán thân bất tịnh&lt;/p>
-&lt;p>&amp;hellip; đang cập nhật&amp;hellip;&lt;/p>
+&lt;p>&lt;a class="link" href="https://youtu.be/0LR_wEKUxOY" target="_blank" rel="noopener"
+>Ở đây&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
 &lt;h3 id="quán-thọ">Quán thọ&lt;/h3>
@@ -956,6 +957,8 @@ Yes, that is good. Where would you like to go?
 &lt;li>Vô ngã: không có cái gì tồn tại là không phụ vào vào cái khác.&lt;/li>
 &lt;li>Khổ&lt;/li>
 &lt;/ol>
+&lt;h2 id="thêm">Thêm&lt;/h2>
+&lt;h3 id="kinh-thủ-lăng-nghiêm">Kinh Thủ Lăng Nghiêm&lt;/h3>
 &lt;h2 id="tham-khảo">Tham khảo&lt;/h2>
 &lt;ol>
 &lt;li>&lt;a class="link" href="https://www.budsas.org/uni/u-kinh-truongbo/truong22.htm" target="_blank" rel="noopener"
@@ -971,6 +974,11 @@ Yes, that is good. Where would you like to go?
 >Vô ngã&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="https://www.youtube.com/watch?v=aulxKhf3vug" target="_blank" rel="noopener"
 >Tứ chánh cần và Tứ niệm xứ - on Youtube&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://www.youtube.com/playlist?list=PLS1qGEdEAca0JcjYt5GwJ_CzIW4JOVzpd" target="_blank" rel="noopener"
+>An sĩ toàn thư&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://drive.google.com/file/d/1DgDApyVXy4lLJ94jyia8CPSoYG-3I-Gu/view" target="_blank" rel="noopener"
+>Kinh Thủ Lăng Nghiêm&lt;/a> - &lt;a class="link" href="https://youtu.be/l6siifGi-3s" target="_blank" rel="noopener"
+>on Youtube&lt;/a>&lt;/li>
 &lt;/ol></description></item><item><title>Hướng dẫn đóng góp bài viết trên VinaLog</title><link>https://vinalog.github.io/posts/h%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-%C4%91%C3%B3ng-g%C3%B3p-b%C3%A0i-vi%E1%BA%BFt-tr%C3%AAn-vinalog/</link><pubDate>Sun, 08 Aug 2021 13:00:00 +0700</pubDate><guid>https://vinalog.github.io/posts/h%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-%C4%91%C3%B3ng-g%C3%B3p-b%C3%A0i-vi%E1%BA%BFt-tr%C3%AAn-vinalog/</guid><description>&lt;img src="https://vinalog.github.io/posts/h%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-%C4%91%C3%B3ng-g%C3%B3p-b%C3%A0i-vi%E1%BA%BFt-tr%C3%AAn-vinalog/update.jpg" alt="Featured image of post Hướng dẫn đóng góp bài viết trên VinaLog" />&lt;p>Chào mọi người, mình xin phép được chia sẻ cách đăng bài viết trên VinaLog Github như sau:&lt;/p>
 &lt;h2 id="mã-nguồn-của-vinalog-github">Mã nguồn của VinaLog Github&lt;/h2>
 &lt;p>Đây là mã nguồn của VinaLog: &lt;a class="link" href="https://github.com/vinalog/vinalog.github.io" target="_blank" rel="noopener"
