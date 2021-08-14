@@ -1,4 +1,83 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Your site | Vietnam Log.</title><link>https://vinalog.github.io/</link><description>Recent content on Your site | Vietnam Log.</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 11 Aug 2021 10:50:00 +0700</lastBuildDate><atom:link href="https://vinalog.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Tất cả về sFTP, SSH và FTP</title><link>https://vinalog.github.io/posts/t%E1%BA%A5t-c%E1%BA%A3-v%E1%BB%81-sftp-ssh-v%C3%A0-ftp/</link><pubDate>Wed, 11 Aug 2021 10:50:00 +0700</pubDate><guid>https://vinalog.github.io/posts/t%E1%BA%A5t-c%E1%BA%A3-v%E1%BB%81-sftp-ssh-v%C3%A0-ftp/</guid><description>&lt;img src="https://vinalog.github.io/posts/t%E1%BA%A5t-c%E1%BA%A3-v%E1%BB%81-sftp-ssh-v%C3%A0-ftp/sftp.jpg" alt="Featured image of post Tất cả về sFTP, SSH và FTP" />&lt;h2 id="giới-thiệu-tổng-quan">Giới thiệu tổng quan&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Your site | Vietnam Log.</title><link>https://vinalog.github.io/</link><description>Recent content on Your site | Vietnam Log.</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 12 Aug 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://vinalog.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Tất cả về ngôn ngữ lập trình Python</title><link>https://vinalog.github.io/posts/t%E1%BA%A5t-c%E1%BA%A3-v%E1%BB%81-ng%C3%B4n-ng%E1%BB%AF-l%E1%BA%ADp-tr%C3%ACnh-python/</link><pubDate>Thu, 12 Aug 2021 00:00:00 +0000</pubDate><guid>https://vinalog.github.io/posts/t%E1%BA%A5t-c%E1%BA%A3-v%E1%BB%81-ng%C3%B4n-ng%E1%BB%AF-l%E1%BA%ADp-tr%C3%ACnh-python/</guid><description>&lt;h2 id="giới-thiệu-tổng-quan">Giới thiệu tổng quan&lt;/h2>
+&lt;h3 id="ngôn-ngữ-lập-trình">Ngôn ngữ lập trình&lt;/h3>
+&lt;h3 id="python-là-gì">Python là gì?&lt;/h3>
+&lt;p>Python là ngôn ngữ lập trình dùng để lập trình lõi, Internet of Things, lập trình Website.&lt;/p>
+&lt;h2 id="cơ-bản-về-lập-trình">Cơ bản về lập trình&lt;/h2>
+&lt;ol>
+&lt;li>
+&lt;p>Cài đặt, gỡ cài đặt&lt;/p>
+&lt;p>Chú ý một số thuật ngữ&lt;/p>
+&lt;ul>
+&lt;li>Môi trường, biến môi trường&lt;/li>
+&lt;li>Phiên bản (version)&lt;/li>
+&lt;li>Chạy chương trình&lt;/li>
+&lt;li>Thư viện, package, dependence&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>Phần cần thiết nhất&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>Ghi chú (comment), nhiều ghi chú&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Biến (variable), nhiều biến, loại biến, tên biến&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Kiểu dữ liệu, ép kiểu&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>Kiểu số: nguyên, thực, phân số, số phức&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Kiểu chuỗi: chuỗi trần, nối chuỗi, thêm phần tử vào chuỗi&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-python" data-lang="python">&lt;span class="nb">print&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="sa">r&lt;/span>&lt;span class="s1">&amp;#39;aaa&amp;#39;&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;span class="nb">str&lt;/span>&lt;span class="p">[&lt;/span>&lt;span class="mi">0&lt;/span>&lt;span class="p">]&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;/li>
+&lt;li>
+&lt;p>Mảng: list, tuple, dictionary&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Ma trận (matrix)&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>Toán tử&lt;/p>
+&lt;ul>
+&lt;li>Thông thường: cộng, trừ, nhân, chia, lấy dư, lấy nguyên, luỹ thừa&lt;/li>
+&lt;li>Logic: and, or, not&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>Phần cần chú ý&lt;/p>
+&lt;ul>
+&lt;li>Xử lý file&lt;/li>
+&lt;li>Hàm (function)&lt;/li>
+&lt;li>Debug&lt;/li>
+&lt;li>Đệ quy&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>Phần tư duy&lt;/p>
+&lt;ul>
+&lt;li>Cấu trúc rẽ nhánh&lt;/li>
+&lt;li>Vòng lặp (for, while)&lt;/li>
+&lt;li>Hướng đối tượng (OOP)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ol>
+&lt;h2 id="tham-khảo">Tham khảo&lt;/h2>
+&lt;ol>
+&lt;li>&lt;a class="link" href="https://www.youtube.com/playlist?list=PL33lvabfss1xczCv2BA0SaNJHu_VXsFtg" target="_blank" rel="noopener"
+>Python cơ bản - Kteam&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://www.youtube.com/playlist?list=PL33lvabfss1wez4satmqv2q-AjOi91h6M" target="_blank" rel="noopener"
+>Python hướng đối tượng - Kteam&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://www.youtube.com/playlist?list=PL33lvabfss1zLDVHXW_YUJxhxBFap-vm_" target="_blank" rel="noopener"
+>Python Machine Learning - Kteam&lt;/a>&lt;/li>
+&lt;/ol></description></item><item><title>Tất cả về sFTP, SSH và FTP</title><link>https://vinalog.github.io/posts/t%E1%BA%A5t-c%E1%BA%A3-v%E1%BB%81-sftp-ssh-v%C3%A0-ftp/</link><pubDate>Wed, 11 Aug 2021 10:50:00 +0700</pubDate><guid>https://vinalog.github.io/posts/t%E1%BA%A5t-c%E1%BA%A3-v%E1%BB%81-sftp-ssh-v%C3%A0-ftp/</guid><description>&lt;img src="https://vinalog.github.io/posts/t%E1%BA%A5t-c%E1%BA%A3-v%E1%BB%81-sftp-ssh-v%C3%A0-ftp/sftp.jpg" alt="Featured image of post Tất cả về sFTP, SSH và FTP" />&lt;h2 id="giới-thiệu-tổng-quan">Giới thiệu tổng quan&lt;/h2>
 &lt;h3 id="sftp-là-gì">sFTP là gì?&lt;/h3>
 &lt;p>sFTP là một giao thức mạng giúp người dùng có thể upload và download dữ liệu trên máy chủ. sFTP dùng SSH để kết nối nên dữ liệu được di chuyển sẽ bảo mật (mã hoá) hơn.&lt;/p>
 &lt;p>Thông tin thêm để tìm hiểu:&lt;/p>
@@ -977,6 +1056,8 @@ Yes, that is good. Where would you like to go?
 &lt;li>&lt;a class="link" href="https://drive.google.com/file/d/1DgDApyVXy4lLJ94jyia8CPSoYG-3I-Gu/view" target="_blank" rel="noopener"
 >Kinh Thủ Lăng Nghiêm&lt;/a> - &lt;a class="link" href="https://youtu.be/l6siifGi-3s" target="_blank" rel="noopener"
 >on Youtube&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://www.budsas.org/uni/u-kinh-bt-ngan/bntk.htm" target="_blank" rel="noopener"
+>Bát nhã Ba la mật đa Tâm kinh&lt;/a>&lt;/li>
 &lt;/ol></description></item><item><title>Hướng dẫn đóng góp bài viết trên VinaLog</title><link>https://vinalog.github.io/posts/h%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-%C4%91%C3%B3ng-g%C3%B3p-b%C3%A0i-vi%E1%BA%BFt-tr%C3%AAn-vinalog/</link><pubDate>Sun, 08 Aug 2021 13:00:00 +0700</pubDate><guid>https://vinalog.github.io/posts/h%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-%C4%91%C3%B3ng-g%C3%B3p-b%C3%A0i-vi%E1%BA%BFt-tr%C3%AAn-vinalog/</guid><description>&lt;img src="https://vinalog.github.io/posts/h%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-%C4%91%C3%B3ng-g%C3%B3p-b%C3%A0i-vi%E1%BA%BFt-tr%C3%AAn-vinalog/update.jpg" alt="Featured image of post Hướng dẫn đóng góp bài viết trên VinaLog" />&lt;p>Chào mọi người, mình xin phép được chia sẻ cách đăng bài viết trên VinaLog Github như sau:&lt;/p>
 &lt;h2 id="mã-nguồn-của-vinalog-github">Mã nguồn của VinaLog Github&lt;/h2>
 &lt;p>Đây là mã nguồn của VinaLog: &lt;a class="link" href="https://github.com/vinalog/vinalog.github.io" target="_blank" rel="noopener"
