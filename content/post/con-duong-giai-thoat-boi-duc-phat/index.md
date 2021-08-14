@@ -285,3 +285,4 @@ Trọng tâm của Đạo là con người, và mối tương quan giữa con ng
 6. [Tứ chánh cần và Tứ niệm xứ - on Youtube](https://www.youtube.com/watch?v=aulxKhf3vug)
 7. [An sĩ toàn thư](https://www.youtube.com/playlist?list=PLS1qGEdEAca0JcjYt5GwJ_CzIW4JOVzpd)
 8. [Kinh Thủ Lăng Nghiêm](https://drive.google.com/file/d/1DgDApyVXy4lLJ94jyia8CPSoYG-3I-Gu/view) - [on Youtube](https://youtu.be/l6siifGi-3s)
+9. [Bát nhã Ba la mật đa Tâm kinh](https://www.budsas.org/uni/u-kinh-bt-ngan/bntk.htm)
